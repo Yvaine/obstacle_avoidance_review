@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  7 DEC 2015 17:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  10 DEC 2015 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,33 +204,48 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 455.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./main.bbl
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 509.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 509.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] (./main.bbl
+Underfull \hbox (badness 5924) in paragraph at lines 4--8
+[]\OT1/ptm/m/n/8 Radhakrishna Achanta, Sheila Hemami, Fran-cisco Estrada, and
+ []
+
+
+Underfull \vbox (badness 5161) has occurred while \output is active []
+
+ [2]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 )
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
+[3
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2189 strings out of 495028
- 34806 string characters out of 6181497
- 91623 words of memory out of 5000000
- 5396 multiletter control sequences out of 15000+600000
+ 2205 strings out of 495028
+ 34980 string characters out of 6181497
+ 96709 words of memory out of 5000000
+ 5412 multiletter control sequences out of 15000+600000
  35736 words of font info for 66 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 37i,5n,23p,736b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,5n,23p,1009b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on main.pdf (1 page, 61376 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 82917 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

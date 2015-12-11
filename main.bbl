@@ -1,8 +1,54 @@
 \begin{thebibliography}{1}
 
+\bibitem{Achanta2009}
+Radhakrishna Achanta, Sheila Hemami, Francisco Estrada, and S~Susstrunk.
+\newblock {Frequency-tuned salient region detection}.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, number~Ic, pages 1597--1604, 2009.
+
+\bibitem{Almeida2009}
+Carlos Almeida, Tiago Franco, Hugo Ferreira, Alfredo Martins, Ricardo Santos,
+  Jos{\'{e}}~Miguel Almeida, and Eduardo Silva.
+\newblock {Radar Based Collision detection developments on USV ROAZ II}.
+\newblock {\em Oceans09 Bremen}, pages 1--6, 2009.
+
+\bibitem{Azzabi}
+Tarek Azzabi.
+\newblock {Obstacle detection for Unmanned Surface Vehicle}.
+\newblock (5):1--7.
+
 \bibitem{Bertram2008}
 Volker Bertram.
 \newblock {Unmanned Surface Vehicles – A Survey}.
 \newblock {\em Skibsteknisk Selskab, Copenhagen, Denmark}, pages 1--14, 2008.
+
+\bibitem{Bouguet1999}
+Jean-yves Bouguet.
+\newblock {Pyramidal Implementation of the Lucas Kanade Feature Tracker
+  Description of the algorithm}.
+\newblock {\em In Practice}, 1(2):1--9, 1999.
+
+\bibitem{Harris1988}
+C.~Harris and M.~Stephens.
+\newblock {A Combined Corner and Edge Detector}.
+\newblock {\em Procedings of the Alvey Vision Conference 1988}, pages 147--151,
+  1988.
+
+\bibitem{Schuster2014}
+Michael Schuster, Michael Blaich, and Johannes Reuter.
+\newblock {Collision Avoidance for Vessels using a Low-Cost Radar Sensor}.
+\newblock (2009):9673--9678, 2014.
+
+\bibitem{Wang2012}
+Han Wang and Zhuo Wei.
+\newblock {Improvement in Real-time Obstacle Detection System for USV}.
+\newblock 2012(December):5--7, 2012.
+
+\bibitem{Wang2011}
+Han Wang, Zhuo Wei, Sisong Wang, Chek~Seng Ow, Kah~Tong Ho, and Benjamin Feng.
+\newblock {A vision-based obstacle detection system for unmanned surface
+  vehicle}.
+\newblock {\em IEEE Conference on Robotics, Automation and Mechatronics, RAM -
+  Proceedings}, pages 364--369, 2011.
 
 \end{thebibliography}

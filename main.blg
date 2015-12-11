@@ -3,44 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: bibliography.bib
-You've used 1 entry,
+Warning--there's a number but no series in Achanta2009
+Warning--empty journal in Azzabi
+Warning--there's a number but no volume in Azzabi
+Warning--empty year in Azzabi
+Warning--empty journal in Schuster2014
+Warning--there's a number but no volume in Schuster2014
+Warning--empty journal in Wang2012
+You've used 9 entries,
             2118 wiz_defined-function locations,
-            504 strings with 4120 characters,
-and the built_in function-call counts, 341 in all, are:
-= -- 35
-> -- 7
-< -- 1
-+ -- 3
-- -- 2
-* -- 18
-:= -- 59
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
+            557 strings with 5506 characters,
+and the built_in function-call counts, 3584 in all, are:
+= -- 364
+> -- 159
+< -- 6
++ -- 63
+- -- 54
+* -- 255
+:= -- 567
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 54
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 16
-empty$ -- 28
-format.name$ -- 2
-if$ -- 73
+cite$ -- 16
+duplicate$ -- 141
+empty$ -- 260
+format.name$ -- 54
+if$ -- 757
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 4
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 18
+pop$ -- 57
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 45
 quote$ -- 0
-skip$ -- 13
+skip$ -- 112
 stack$ -- 0
-substring$ -- 24
-swap$ -- 6
-text.length$ -- 1
+substring$ -- 254
+swap$ -- 47
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 5
-width$ -- 2
-write$ -- 13
+type$ -- 36
+warning$ -- 7
+while$ -- 41
+width$ -- 10
+write$ -- 98
+(There were 7 warnings)
