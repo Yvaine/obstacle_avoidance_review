@@ -3,52 +3,65 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: bibliography.bib
+Repeated entry---line 138 of file bibliography.bib
+ : @article{Azzabi
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 234 of file bibliography.bib
+ : @article{Schuster2014
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 270 of file bibliography.bib
+ : @article{Wang2011
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--there's a number but no series in Achanta2009
 Warning--empty journal in Azzabi
 Warning--there's a number but no volume in Azzabi
 Warning--empty year in Azzabi
+Warning--empty journal in Larson2007
 Warning--empty journal in Schuster2014
 Warning--there's a number but no volume in Schuster2014
 Warning--empty journal in Wang2012
-You've used 9 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            557 strings with 5506 characters,
-and the built_in function-call counts, 3584 in all, are:
-= -- 364
-> -- 159
-< -- 6
-+ -- 63
-- -- 54
-* -- 255
-:= -- 567
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 54
+            582 strings with 6290 characters,
+and the built_in function-call counts, 5319 in all, are:
+= -- 535
+> -- 261
+< -- 9
++ -- 103
+- -- 90
+* -- 385
+:= -- 852
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 141
-empty$ -- 260
-format.name$ -- 54
-if$ -- 757
+cite$ -- 21
+duplicate$ -- 202
+empty$ -- 369
+format.name$ -- 90
+if$ -- 1117
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 9
-newline$ -- 48
-num.names$ -- 18
-pop$ -- 57
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 68
+num.names$ -- 26
+pop$ -- 87
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 71
 quote$ -- 0
-skip$ -- 112
+skip$ -- 160
 stack$ -- 0
-substring$ -- 254
-swap$ -- 47
-text.length$ -- 6
+substring$ -- 358
+swap$ -- 67
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
-warning$ -- 7
-while$ -- 41
-width$ -- 10
-write$ -- 98
-(There were 7 warnings)
+type$ -- 52
+warning$ -- 8
+while$ -- 60
+width$ -- 15
+write$ -- 141
+(There were 3 error messages)

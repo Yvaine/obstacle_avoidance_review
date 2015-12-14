@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Achanta2009}
 Radhakrishna Achanta, Sheila Hemami, Francisco Estrada, and S~Susstrunk.
@@ -33,6 +33,31 @@ C.~Harris and M.~Stephens.
 \newblock {A Combined Corner and Edge Detector}.
 \newblock {\em Procedings of the Alvey Vision Conference 1988}, pages 147--151,
   1988.
+
+\bibitem{Kuwata2014}
+Yoshiaki Kuwata, Michael~T. Wolf, Dimitri Zarzhitsky, and Terrance~L.
+  Huntsberger.
+\newblock {Safe Maritime Autonomous Navigation With COLREGS, Using Velocity
+  Obstacles}.
+\newblock {\em IEEE Journal of Oceanic Engineering}, 39(1):110--119, 2014.
+
+\bibitem{Larson2007}
+Jacoby Larson, Michael Bruch, John Ebken, Naval Warfare, San Diego, and San
+  Diego.
+\newblock {Autonomous Navigation and Obstacle avoidance for unmanned surface
+  vehicles}.
+\newblock pages 17--20, 2007.
+
+\bibitem{Larson2007a}
+Jacoby Larson, Michael Bruch, Ryan Halterman, John Rogers, and Robert Webster.
+\newblock {Advances in Autonomous Obstacle Avoidance for Unmanned Surface
+  Vehicles}.
+\newblock {\em Techniques}, pages 1--15, 2007.
+
+\bibitem{Leng2013}
+Jing Leng, Jian Liu, and Hongli Xu.
+\newblock {Online path planning based on MILP for unmanned surface vehicles}.
+\newblock {\em Oceans - San Diego, 2013}, pages 1--7, 2013.
 
 \bibitem{Schuster2014}
 Michael Schuster, Michael Blaich, and Johannes Reuter.

@@ -69,7 +69,7 @@ Path planner, USV, control, obstacle avoidance.
 
 
 
-\section{Introduction}
+\section{Introduction} \label{introduction}
 Marine robots represent one of the three big families in which mobile robotics could be divided, together with terrain and aerial robots. This kind of vehicles can be also distinguished in Unmanned Surface Vehicles (USVs) or Unmanned Underwater vehicles (UUVs) based on the fact they operate at the same level of the sea or under it.
 The interest toward them and the advantages they can provide started in the last century, with the development of the COMOX torpedo concept by Canadians in 1944 as a pre-Normandy invasion USV designed to lay smoke during the invasion \cite{Bertram2008}.\\
 \indent Sponsored primarly by the US Navy, multiple platforms were developed and deployed in the late 1990s with the scope of reconnaissance and surveillance missions. Between these, an example is given by the Owl MK II, a Jet Ski chassis equipped with a low-profile hull for increased stealth and payload capability, a sonar and a video camera. The military community has expressed strong interest in the use of USVs for a variety of roles, including force protection, surveillance, min warfare, anti-submarine warfarem riverine operations and special forces operations. This interest has been focused primarly on the development of the Spartan USV by the US Space and Naval Warfare System Center in San Diego since 2003. \\
@@ -109,10 +109,35 @@ The extracted target positions are very noisy, thus strong low pass filtering is
 \indent The output of the previous module is therefore used to estimate the distance from the USV to obstacles using a geometrical interpretation of the image. As result, the distance to the object, its width and its bearing angle is computed.
 
 \section{Path Planner} \label{path_planner}
+After having perceived the surrounding environment and the obstacles present in it with the techiques previously described, we have to realize a model of the world. This could be done in a two or three dimensional space but often the first option is preferred because it can guarantee less computational time to operate with it. Having a virtual representation of the world is a key point to plan a path for moving the autonomous vessel.\\
+As described in \ref{introduction}, usually the \textit{Path Planner} module is usually divided in two sub-components: the \textit{global} one aims to find a safe path from the actual pose of the robot to a goal one, while the \textit{local} one tries to avoid moving obstacles close to the robot. This is a common way to develop a robust path planner but nothing prohibits  to model a unique one, able to plan a path and react to obstacles at the same time.\\
+\indent In the following subsections I will describe the most recent path planners used in marine robotics, to guide autonomous vessels on the sea surface among other boats and moving hazards.
 
   \subsection{Global Path Planner} \label{gpp}
+  The goal of the GPP is to continuosly modify the existing waypoint route to plan around obstacles detected with the long-range sensors. In the work of Larson \textit{et al.} \cite{Larson2007,Larson2007a}, the path planner use a two-dimensional (2D) obstacle map, a grid created by dividing the environment into a discrete grid and assigning each cell location a value representing the probability of being occupied or not by an obstacle. This is filled with stationary obstacles from the \textit{chart server} and moving obstacles provided by the radar. The underlying search technique is the A* search algorithm, chosen because it can find an optimal solution in a short amount of time. Since A* uses a cost analysis at each step, the author inserted an added cost for proximity to obstacles for allowing the USV to set a safety barrier around obstacles.\\
+  To avoid moving obstacles tha path planner determines safe velocity ranges using the Velocity Obstacles method. This algorithm transform a moving obstacle into a stationary one by considering the relative velocity and trajectory of the USV wih respect to the obstacle, and in the end it returns a set of USV velocity vectors guaranteeing collision avoidance.\\
+  In the case that changing the velocity doesn't avoid collision, the path planner changes path by creating a projected obstacle area (POA), for each obstacles and determining a safe alternative route using A* search. A POA is the area a moving obstacle could occupy in the future. This area is identified calculating the CPA: since a moving obstacle can pose a threat to the USV along multiple stretches of the path, it is necessary to calculate the CPA of every obstacle along each path segment.\\
+  Among the previous concepts, the authors decided also to consider the International regulations for preventing Collisions at sea (known as COLREGS, for COLlision REGulationS). In this work the authors consider three primary COLREGs: crossing, overtaking and head-on situations. In the situation in which a traffic boat is crossing from the right, the vessel with the other on its starboard (right) side must give away. In the case the USV is overtaking a slow traffic boat, the USV must ensure enough clearance so that it keeps out of the way of the traffic boat being overtaken. Differenlty, if the USV ans the traffic boat are moving straight toward each other, both vessels must alter their course toward the starboard, so that they pass with the other vessel to its port(left side).\\
+  The POA of a moving obstacle is calculated from the current path of the USV and the time taken to traverse that path. As the path changes, there is a need to update the POA and recalculate.
 
   \subsection{Local Path Planner} \label{lpp}
+  A first example of LPP is given by the work of Kuwata \textit{et al.} \cite{Kuwata2014}, in which the authors suggest an algorithm to not only address hazard avoidance for stationary and moving hazards, but that also applies the COLREGS. In this work the authors consider three primary COLREGS: crossing, overtaking and head-on situations.\\
+  Moreover, the proposed approach use the Velocity Obstacle (VO) concept: a velocity space \textit{v-$\theta$} grid (where \textit{v} denotes the USV speed and \textit{$\theta$} is the heading angle) is constructed as decision space to find the best velocity vector and the moving obstacle is expanded by the robot size. The reason to do this it to treat the robot as a point. As long as the robot's velocity lies outside the VO, it will not collide with obstacle, assuming that the velocity vectors are constant over time; if the velocity obstacle change over time, the VO-based approach reacts by replanning using the latest sesnsor information.\\
+  The developed algorithm works in this way:
+  \begin{itemize}
+  \item Precollision Check: the closest point of approach (CPA) is computed with the current position and velocity of the USV and traffic vessels, and it is evaluated if any COLREGS rules need to be applied;
+  \item Rule Selection: if the CPA meets temporal and distance conditions, the best COLREGS rule is applied analyzing a set of geometric constraints;
+  \item Hysteresis: introduced to lower the rate at which the USV can change what rules to aply; this means that once a COLREGS maneuver is initiated, it continues to direct the boat for at least a minimun duration of time;
+  \item Cost: once the constraints set of VO and COLREGS are generated, a defined cost for each \textit{$v_i$} and \textit{$\theta_j$} ammissible is generated and the (\textit{$v_i$}, \textit{$\theta_j$}) pair with the minimum cost is selected and the velocity command is sent to the vehicle controller.
+  \end{itemize}
+
+  \indent A similar approach has been implemented by Leng \textit{et al.}. In \cite{Leng2013} the authors integrate the Velocity Obstacle approach with Mixed Linear integer Programming (MILP). In solving the path planning prpblem, the dynamics and kinematics of the USV, sensors and uncertainty constraints of the environment all can be taken into consideration and linearized. In the end, the objective function will be
+      \begin{center}
+        min: $ \mid $ \textit{L$_{UG}$} - (\textit{v$_{UG}$} + \textit{$\Delta$ v$_{UG}$})$\Delta$t $ \mid$
+      \end{center}
+  where \textit{L$_{UG}$} and \textit{v$_{UG}$} denote the relative distance and velocity between the USV and the target point.\\
+  As in \cite{Kuwata2014}, the collision is checked calculating the the CPA and its distance from the vessel. After this, six types of encounter situations are identified and the USV reacts depending on this decision.
+
 
 
 
