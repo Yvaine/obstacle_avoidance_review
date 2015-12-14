@@ -28,6 +28,12 @@ Jean-yves Bouguet.
   Description of the algorithm}.
 \newblock {\em In Practice}, 1(2):1--9, 1999.
 
+\bibitem{Casalino2009}
+Giuseppe Casalino, Alessio Turetta, and Enrico Simetti.
+\newblock {A three-layered architecture for real time path planning and
+  obstacle avoidance for surveillance USVs operating in harbour fields}.
+\newblock {\em Oceans 2009-Europe}, pages 1--8, 2009.
+
 \bibitem{Harris1988}
 C.~Harris and M.~Stephens.
 \newblock {A Combined Corner and Edge Detector}.
