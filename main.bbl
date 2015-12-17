@@ -40,11 +40,23 @@ Giuseppe Casalino, Alessio Turetta, and Enrico Simetti.
   obstacle avoidance for surveillance USVs operating in harbour fields}.
 \newblock {\em Oceans 2009-Europe}, pages 1--8, 2009.
 
+\bibitem{Conference2013}
+Ieee~International Conference.
+\newblock {An Obstacle Avoidance Algorithm Designed for USV Based on Single
+  Beam Sonar and Fuzzy Control}.
+\newblock (December):2446--2451, 2013.
+
 \bibitem{Harris1988}
 C.~Harris and M.~Stephens.
 \newblock {A Combined Corner and Edge Detector}.
 \newblock {\em Procedings of the Alvey Vision Conference 1988}, pages 147--151,
   1988.
+
+\bibitem{Khatib1985}
+O.~Khatib.
+\newblock {Real-time obstacle avoidance for manipulators and mobile robots}.
+\newblock {\em Proceedings. 1985 IEEE International Conference on Robotics and
+  Automation}, 2:500--505, 1985.
 
 \bibitem{Kuwata2014}
 Yoshiaki Kuwata, Michael~T. Wolf, Dimitri Zarzhitsky, and Terrance~L.
@@ -106,6 +118,12 @@ Han Wang, Zhuo Wei, Sisong Wang, Chek~Seng Ow, Kah~Tong Ho, and Benjamin Feng.
   vehicle}.
 \newblock {\em IEEE Conference on Robotics, Automation and Mechatronics, RAM -
   Proceedings}, pages 364--369, 2011.
+
+\bibitem{Xie2014}
+Shaorong Xie, Peng Wu, Yan Peng, Jun Luo, and Jason Gu.
+\newblock {The Obstacle Avoidance Planning of USV Based on Improved Artificial
+  Potential Field}.
+\newblock (12140500400):746--751, 2014.
 
 \bibitem{Zhang2014}
 Rubo Zhang, Pingpeng Tang, Yumin Su, Xueyao Li, Ge~Yang, and Changting Shi.

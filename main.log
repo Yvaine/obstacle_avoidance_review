@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  16 DEC 2015 15:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  17 DEC 2015 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,41 +204,96 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 88.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
 
 
-] [2]
-Underfull \hbox (badness 1953) in paragraph at lines 117--122
+Underfull \hbox (badness 1990) in paragraph at lines 87--88
+\OT1/ptm/m/it/10 ir-ril-e-vant \OT1/ptm/m/n/10 perime-ter(3km), \OT1/ptm/m/it/1
+0 safe \OT1/ptm/m/n/10 perime-ter(500m), \OT1/ptm/m/it/10 warn-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 92.
+
+Underfull \hbox (badness 1902) in paragraph at lines 105--106
+\OT1/ptm/m/n/10 re-con-struc-tion, an in-ter-me-di-ate phase in which \OT1/ptm/
+m/it/10 epipo-lar
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 105--106
+\OT1/ptm/m/n/10 cross cor-re-la-tion tem-plate match-ing method is adopted.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[2]
+Underfull \hbox (badness 1953) in paragraph at lines 125--130
 \OT1/ptm/m/n/10 the path plan-ner changes path by cre-at-ing a pro-jected
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
+
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 138--140
+\OT1/ptm/m/n/10 at-trac-tion po-ten-tial field and re-pul-sion po-ten-tial en-e
+rgy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 [3]
-Underfull \hbox (badness 1953) in paragraph at lines 144--146
+Underfull \hbox (badness 1953) in paragraph at lines 169--171
 \OT1/ptm/m/n/10 sen-sorsa are not ca-pa-ble of de-tect-ing small low-profile
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
+ []
+
+[5]
+Underfull \hbox (badness 1472) in paragraph at lines 215--217
+\OT1/ptm/m/n/10 one and on the ob-sta-cles dis-tri-bu-tions. If ob-sta-cles are
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
 
 (./main.bbl
 Underfull \hbox (badness 3735) in paragraph at lines 4--8
@@ -248,30 +303,28 @@ Underfull \hbox (badness 3735) in paragraph at lines 4--8
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-[5]) [6
-
-] (./main.aux) ) 
+) [6] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2219 strings out of 495028
- 35144 string characters out of 6181497
- 98757 words of memory out of 5000000
- 5426 multiletter control sequences out of 15000+600000
+ 2222 strings out of 495028
+ 35181 string characters out of 6181497
+ 97769 words of memory out of 5000000
+ 5429 multiletter control sequences out of 15000+600000
  35736 words of font info for 66 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 37i,5n,23p,1009b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
-er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 157568 bytes).
+ 37i,5n,23p,1178b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/c
+ourier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 163078 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
