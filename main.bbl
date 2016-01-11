@@ -1,134 +1,712 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{Achanta2009}
-Radhakrishna Achanta, Sheila Hemami, Francisco Estrada, and S~Susstrunk.
-\newblock {Frequency-tuned salient region detection}.
-\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
-  IEEE Conference on}, number~Ic, pages 1597--1604, 2009.
 
-\bibitem{Almeida2009}
-Carlos Almeida, Tiago Franco, Hugo Ferreira, Alfredo Martins, Ricardo Santos,
-  Jos{\'{e}}~Miguel Almeida, and Eduardo Silva.
-\newblock {Radar Based Collision detection developments on USV ROAZ II}.
-\newblock {\em Oceans09 Bremen}, pages 1--6, 2009.
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{Achanta2009}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=70ab76581ec6cc5f89acbc1833d77b14}{Achanta}{A\bibinitperiod}{Radhakrishna}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=83b904ec74557edef6501713dd9fa109}{Hemami}{H\bibinitperiod}{Sheila}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69c70cc6c1a198b269fe487708da34e9}{Estrada}{E\bibinitperiod}{Francisco}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1466ef98a8ceadf0421b960a6232b8d4}{Susstrunk}{S\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=70ab76581ec6cc5f89acbc1833d77b14}{Achanta}{A\bibinitperiod}{Radhakrishna}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=83b904ec74557edef6501713dd9fa109}{Hemami}{H\bibinitperiod}{Sheila}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69c70cc6c1a198b269fe487708da34e9}{Estrada}{E\bibinitperiod}{Francisco}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1466ef98a8ceadf0421b960a6232b8d4}{Susstrunk}{S\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c652b822ae05ad3e7a973fdd42083f0}
+      \strng{fullhash}{497a256db762a4c25897bb5fe8453d86}
+      \field{sortinit}{A}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Frequency-tuned salient region detection}}
+      \field{abstract}{Detection of visually salient image regions is useful for applications like object segmentation, adaptive compression, and object recognition. In this paper, we introduce a method for salient region detection that outputs full resolution saliency maps with well-defined boundaries of salient objects. These boundaries are preserved by retaining substantially more frequency content from the original image than other existing techniques. Our method exploits features of color and luminance, is simple to implement, and is computationally efficient. We compare our algorithm to five state-of-the-art salient region detection methods with a frequency domain analysis, ground truth, and a salient object segmentation application. Our method outperforms the five algorithms both on the ground-truth evaluation and on the segmentation task by achieving both higher precision and better recall.}
+      \field{booktitle}{Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on}
+      \field{isbn}{1063-6919 VO -}
+      \field{issn}{1063-6919}
+      \field{number}{Ic}
+      \field{title}{{Frequency-tuned salient region detection}}
+      \field{year}{2009}
+      \field{pages}{1597\bibrangedash 1604}
+      \verb{doi}
+      \verb 10.1109/CVPR.2009.5206596
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Obstacle detection/Frequency-tuned Salient Region Detection.pdf:pdf
+      \endverb
+      \keyw{Biological system modeling,Biology computing,Frequency domain analysis,Frequency estimation,Image analysis,Image coding,Image segmentation,Object detection,Object recognition,Object segmentation,color,edge detection,frequency-tuned salient region detection,full resolution saliency map,image colour analysis,image resolution,luminance,visual saliency}
+    \endentry
+    \entry{Almeida2009}{article}{}
+      \name{labelname}{7}{}{%
+        {{uniquename=0,hash=eb34757e42f147032265b618630dc03a}{Almeida}{A\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b1bedd5330b44db6dc32b0bf959b685}{Franco}{F\bibinitperiod}{Tiago}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8af2db0d5bc93708fa6225e500f3009b}{Ferreira}{F\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0329b5fa6a935734543e22e03fcb2913}{Martins}{M\bibinitperiod}{Alfredo}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=24fe6beccb4c948651a3721ad8b1ebea}{Santos}{S\bibinitperiod}{Ricardo}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9816cf8c48d6485cdd7db5087a14627e}{Almeida}{A\bibinitperiod}{Jos{\'{e}}\bibnamedelima Miguel}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=26a154434e2b4c71ebe841e8d9b7603d}{Silva}{S\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=eb34757e42f147032265b618630dc03a}{Almeida}{A\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b1bedd5330b44db6dc32b0bf959b685}{Franco}{F\bibinitperiod}{Tiago}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8af2db0d5bc93708fa6225e500f3009b}{Ferreira}{F\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0329b5fa6a935734543e22e03fcb2913}{Martins}{M\bibinitperiod}{Alfredo}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=24fe6beccb4c948651a3721ad8b1ebea}{Santos}{S\bibinitperiod}{Ricardo}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9816cf8c48d6485cdd7db5087a14627e}{Almeida}{A\bibinitperiod}{Jos{\'{e}}\bibnamedelima Miguel}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=26a154434e2b4c71ebe841e8d9b7603d}{Silva}{S\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a01d8b7a7e5ab6ecfab3a581111e8c6a}
+      \strng{fullhash}{d8837c33ed43a0c1242ee0bb4eb33c04}
+      \field{sortinit}{A}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Radar Based Collision detection developments on USV ROAZ II}}
+      \field{abstract}{Abstract- This work presents the integration of obstacle detection and analysis capabilities in a coherent and advanced C{\&}C framework allowing mixed-mode control in unmanned surface systems. The collision avoidance work has been successfully integrated in an operational autonomous surface vehicle and demonstrated in real operational conditions. We present the collision avoidance system, the ROAZ autonomous surface vehicle and the results obtained at sea tests. Limitations of current COTS radar systems are also discussed and further research directions are proposed towards the development and integration of advanced collision avoidance systems taking in account the different requirements in unmanned surface vehicles}
+      \field{isbn}{978-1-4244-2522-8}
+      \field{journaltitle}{Oceans09 Bremen}
+      \field{title}{{Radar Based Collision detection developments on USV ROAZ II}}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 6}
+      \verb{doi}
+      \verb 10.1109/OCEANSE.2009.5278238
+      \endverb
+      \verb{file}
+      \verb :home/pulver/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Almeida et al. - 2009 - Radar Based Collision detection developments on USV ROAZ II.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.oceans09ieeebremen.org/
+      \endverb
+    \endentry
+    \entry{Azzabi}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=bfdf1f5e4171cd312bddd0603b474c2c}{Azzabi}{A\bibinitperiod}{Tarek}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bfdf1f5e4171cd312bddd0603b474c2c}{Azzabi}{A\bibinitperiod}{Tarek}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bfdf1f5e4171cd312bddd0603b474c2c}
+      \strng{fullhash}{bfdf1f5e4171cd312bddd0603b474c2c}
+      \field{sortinit}{A}
+      \field{labelyear}{nodate}
+      \field{labeltitle}{{Obstacle detection for Unmanned Surface Vehicle}}
+      \field{isbn}{9781479973002}
+      \field{number}{5}
+      \field{title}{{Obstacle detection for Unmanned Surface Vehicle}}
+      \field{pages}{1\bibrangedash 7}
+      \verb{doi}
+      \verb 10.1109/CISTEM.2014.7076748
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Obstacle detection for unmanned surface vehicle.pdf:pdf
+      \endverb
+      \keyw{calculate the distance,experimentation results,flow,horizon line detection,matlab simulink,obstacle detection,optical,part will summarize the,the approaches used to,usv,while the forth}
+    \endentry
+    \entry{Bertram2008}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8c7214770ffc3b9c1ee7e81f8b2bbfde}{Bertram}{B\bibinitperiod}{Volker}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8c7214770ffc3b9c1ee7e81f8b2bbfde}{Bertram}{B\bibinitperiod}{Volker}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8c7214770ffc3b9c1ee7e81f8b2bbfde}
+      \strng{fullhash}{8c7214770ffc3b9c1ee7e81f8b2bbfde}
+      \field{sortinit}{B}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Unmanned Surface Vehicles : A Survey}}
+      \field{abstract}{The survey of marine Unmanned Surface Vehicles (USVs) covers both actually built and projected USVs. Most USV developments are found in the USA. USVs remain so far limited to small to medium vessels with limited autonomy.}
+      \field{journaltitle}{Skibsteknisk Selskab, Copenhagen, Denmark}
+      \field{title}{{Unmanned Surface Vehicles : A Survey}}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 14}
+      \verb{file}
+      \verb :home/pulver/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bertram - 2008 - Unmanned Surface Vehicles \x{fffd}\x{fffd}\x{fffd} A Survey.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.skibstekniskselskab.dk/public/dokumenter/Skibsteknisk/Download%20materiale/2008/10%20marts%2008/USVsurvey%7B%5C_%7DDTU.pdf
+      \endverb
+    \endentry
+    \entry{Blaich2015}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=c409ce309282c5a20eb835f0bd8af44d}{Blaich}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=82f60cbdc66be1ba12711f16b3241891}{Koehler}{K\bibinitperiod}{Steffen}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e7aebd648e4bfa5667b29d2cab0f2ad1}{Schuster}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=62fc149b920bd1ae46246bbafac69daf}{Reuter}{R\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6d27d5c325a29b4a08b5fd46e6ee69ba}{Tietz}{T\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=c409ce309282c5a20eb835f0bd8af44d}{Blaich}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=82f60cbdc66be1ba12711f16b3241891}{Koehler}{K\bibinitperiod}{Steffen}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e7aebd648e4bfa5667b29d2cab0f2ad1}{Schuster}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=62fc149b920bd1ae46246bbafac69daf}{Reuter}{R\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6d27d5c325a29b4a08b5fd46e6ee69ba}{Tietz}{T\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e771dc25c1e71e7d8a83b036a54e7fa6}
+      \strng{fullhash}{6aefca0e62ca704b414cba69ab999965}
+      \field{sortinit}{B}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Mission Integrated Collision Avoidance for USVs using Laser Ranger}}
+      \field{isbn}{9781479987368}
+      \field{journaltitle}{Oceans 2015 Mts/Ieee}
+      \field{title}{{Mission Integrated Collision Avoidance for USVs using Laser Ranger}}
+      \field{year}{2015}
+      \field{pages}{\bibrangedash 5}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Mission integrated collision avoidance for usv using laser range finder.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bouguet1999}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1216af7032509bf4a99b43767f809b79}{Bouguet}{B\bibinitperiod}{Jean-yves}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1216af7032509bf4a99b43767f809b79}{Bouguet}{B\bibinitperiod}{Jean-yves}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1216af7032509bf4a99b43767f809b79}
+      \strng{fullhash}{1216af7032509bf4a99b43767f809b79}
+      \field{sortinit}{B}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Pyramidal Implementation of the Lucas Kanade Feature Tracker Description of the algorithm}}
+      \field{abstract}{Pyramid LK $\Upsilon$\x{fffd}\x{fffd}\x{fffd}}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{0966-842X (Print)$\backslash$n0966-842X (Linking)}
+      \field{issn}{0966842X}
+      \field{journaltitle}{In Practice}
+      \field{number}{2}
+      \field{title}{{Pyramidal Implementation of the Lucas Kanade Feature Tracker Description of the algorithm}}
+      \field{volume}{1}
+      \field{year}{1999}
+      \field{pages}{1\bibrangedash 9}
+      \verb{doi}
+      \verb 10.1016/j.tim.2005.08.009
+      \endverb
+      \verb{eprint}
+      \verb 3629719
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Obstacle detection/Pyramidal Implementation of the Lucas Kanade feature tracker.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://trac.assembla.com/dilz%7B%5C_%7Dmgr/export/272/doc/ktl-tracking/algo%7B%5C_%7Dtracking.pdf
+      \endverb
+    \endentry
+    \entry{Casalino2009}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=14d5bcd1b078c541e9e6d204c1d6629e}{Casalino}{C\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e397ed5c819aee688f8dbaf084cac5bf}{Turetta}{T\bibinitperiod}{Alessio}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=53fc9904ad222aaa0ad881030e74e3d7}{Simetti}{S\bibinitperiod}{Enrico}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=14d5bcd1b078c541e9e6d204c1d6629e}{Casalino}{C\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e397ed5c819aee688f8dbaf084cac5bf}{Turetta}{T\bibinitperiod}{Alessio}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=53fc9904ad222aaa0ad881030e74e3d7}{Simetti}{S\bibinitperiod}{Enrico}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{072f9e6ea15fbc338409135714584cd0}
+      \strng{fullhash}{072f9e6ea15fbc338409135714584cd0}
+      \field{sortinit}{C}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{A three-layered architecture for real time path planning and obstacle avoidance for surveillance USVs operating in harbour fields}}
+      \field{abstract}{The use of unmanned vehicles in the field of underwater and marine applications is increasing significantly in recent years. Autonomous vehicles (like AUVs and gliders) or teleoperated ones (like ROVs) are currently employed for executing a number of different underwater tasks, like inspecting submerged pipes, executing maintenance interventions on underwater gas- or oil-platforms, collecting environmental or oceanographic data, performing surveys on sites of archeological interest. In parallel with the development of underwater vehicles, unmanned surface vehicles (USVs), are they also witnessing an increasing interest from the robotic community, especially with the goal of performing surveillance applications, like patrolling and maintaining safeguarded against intruders harbours or other ldquocrucialrdquo sites. The potential benefits offered by automated vessels equipped with sensors such as cameras or sonars are quite evident, since they could be used to quickly identify the level of menace of unknown radar track without exposing any human operators to possible threats. However USVs, unlike in the underwater case, have to face the problem of avoiding other vessels which in most cases are manned ones. This is a crucial point especially in that kind of application, where the automated vessel has to move quickly towards a possible menace while at the same time avoiding all the other boats normally operating in the harbour area. Unfortunately, at the current state of art, a reliable methodology to avoid the other vessels and the availability of effective and accurate obstacle detection sensors is still missing. This paper focus its attention on the case of USV used for security applications within a harbour, devising a solution that can be real-time implemented for the obstacle avoidance problem under critical situations where the vehicle as to reach its target as fast as possible while guaranteeing the safety of the other vessels. The presented solution is based on- a three layered hierarchical architecture: the first layer computes a global path taking into account static obstacles known a priori, the second layer modifies this path in a locally optimal way (under certain assumptions) exploiting kinematic data of the moving obstacles, while the last layer reactively avoids obstacles for which such data is not available. The paper was therefore organized as follows: in the first section an introduction and state of art are presented, in the successive section the work discussed the first layer and the methods for the static obstacles avoidance, while in the third the paper focused on the moving obstacles and the proposed avoidance algorithm, while also presenting many different detailed simulation results regarding the performances achievable by the overall architecture. Finally a concluding section also indicate some still open problems and future work directions to be developed.}
+      \field{isbn}{978-1-4244-2522-8}
+      \field{journaltitle}{Oceans 2009-Europe}
+      \field{title}{{A three-layered architecture for real time path planning and obstacle avoidance for surveillance USVs operating in harbour fields}}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 8}
+      \verb{doi}
+      \verb 10.1109/OCEANSE.2009.5278104
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/A three layered architecture for real time path planning and obstacle avoidance for surveillance usv operating in harbour fields.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5278104
+      \endverb
+      \keyw{AUVs,Art,Marine vehicles,Mobile robots,Path planning,ROV,Radar tracking,Remotely operated vehicles,Sea surface,Surveillance,Underwater vehicles,Vehicle safety,autonomous vehicles,collision avoidance,gliders,harbour fields,kinematic data,marine application,marine safety,mobile robots,obstacle avoidance problem,obstacle detection sensors,radar,real time path planning,remotely operated vehicles,robot kinematics,robotic,security,security applications,surveillance,surveillance unmanned surface vehicles,teleoperated vehicles,telerobotics,three-layered architecture,underwater application,underwater vehicles}
+    \endentry
+    \entry{Conference2013}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5a58b685315721a5d44f9eee4292229e}{Conference}{C\bibinitperiod}{Ieee\bibnamedelima International}{I\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5a58b685315721a5d44f9eee4292229e}{Conference}{C\bibinitperiod}{Ieee\bibnamedelima International}{I\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5a58b685315721a5d44f9eee4292229e}
+      \strng{fullhash}{5a58b685315721a5d44f9eee4292229e}
+      \field{sortinit}{C}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{An Obstacle Avoidance Algorithm Designed for USV Based on Single Beam Sonar and Fuzzy Control}}
+      \field{isbn}{9781479927449}
+      \field{number}{December}
+      \field{title}{{An Obstacle Avoidance Algorithm Designed for USV Based on Single Beam Sonar and Fuzzy Control}}
+      \field{year}{2013}
+      \field{pages}{2446\bibrangedash 2451}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/An obstacle avoidance algorithm designed for usv based on single beam sonar and duzzy control.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Harris1988}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=1c20c4cc8a9d9d5c33a3d4c6c7adab98}{Harris}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=34ed3c61d0b4a0b2e1612c41708d8737}{Stephens}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1c20c4cc8a9d9d5c33a3d4c6c7adab98}{Harris}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=34ed3c61d0b4a0b2e1612c41708d8737}{Stephens}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e591d2268ad0410326b1a32b29c6337d}
+      \strng{fullhash}{e591d2268ad0410326b1a32b29c6337d}
+      \field{sortinit}{H}
+      \field{labelyear}{1988}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{A Combined Corner and Edge Detector}}
+      \field{abstract}{Consistency of image edge filtering is of prime importance for 3D interpretation of image sequences using feature tracking algorithms. To cater for image regions containing texture and isolated features, a combined corner and edge detector based on the local auto-correlation function is utilised, and it is shown to perform with good consistency on natural imagery.}
+      \field{issn}{09639292}
+      \field{journaltitle}{Procedings of the Alvey Vision Conference 1988}
+      \field{title}{{A Combined Corner and Edge Detector}}
+      \field{year}{1988}
+      \field{pages}{147\bibrangedash 151}
+      \verb{doi}
+      \verb 10.5244/C.2.23
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Obstacle detection/A combined corner and edge detector.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bmva.org/bmvc/1988/avc-88-023.html
+      \endverb
+    \endentry
+    \entry{Khatib1985}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b7099225208d490eae9fdc985956b767}{Khatib}{K\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b7099225208d490eae9fdc985956b767}{Khatib}{K\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b7099225208d490eae9fdc985956b767}
+      \strng{fullhash}{b7099225208d490eae9fdc985956b767}
+      \field{sortinit}{K}
+      \field{labelyear}{1985}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Real-time obstacle avoidance for manipulators and mobile robots}}
+      \field{journaltitle}{Proceedings. 1985 IEEE International Conference on Robotics and Automation}
+      \field{title}{{Real-time obstacle avoidance for manipulators and mobile robots}}
+      \field{volume}{2}
+      \field{year}{1985}
+      \field{pages}{500\bibrangedash 505}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1985.1087247
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Path Planning/Real-time Obstacle Avoidance for manipulatos and mobile robots.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1087247
+      \endverb
+    \endentry
+    \entry{Kuwata2014}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=01955eb1b24a7a895c39ebba3b0a737b}{Kuwata}{K\bibinitperiod}{Yoshiaki}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=55e34081fed7af84e2b5367a4ed460ee}{Wolf}{W\bibinitperiod}{Michael\bibnamedelima T.}{M\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=294ab1c0b944c285578587fb87d39f18}{Zarzhitsky}{Z\bibinitperiod}{Dimitri}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9aa68c602e97dcf3791aec18cfcd62b4}{Huntsberger}{H\bibinitperiod}{Terrance\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=01955eb1b24a7a895c39ebba3b0a737b}{Kuwata}{K\bibinitperiod}{Yoshiaki}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=55e34081fed7af84e2b5367a4ed460ee}{Wolf}{W\bibinitperiod}{Michael\bibnamedelima T.}{M\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=294ab1c0b944c285578587fb87d39f18}{Zarzhitsky}{Z\bibinitperiod}{Dimitri}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9aa68c602e97dcf3791aec18cfcd62b4}{Huntsberger}{H\bibinitperiod}{Terrance\bibnamedelima L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f4a850566718571dd0eb2704a80998f2}
+      \strng{fullhash}{830d65a62b750e87823fe4305389f4d1}
+      \field{sortinit}{K}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Safe Maritime Autonomous Navigation With COLREGS, Using Velocity Obstacles}}
+      \field{abstract}{This paper presents an autonomous motion planning algorithm for unmanned surface vehicles (USVs) to navigate safely in dynamic, cluttered environments. The algorithm not only addresses hazard avoidance (HA) for stationary and moving hazards, but also applies the International Regulations for Preventing Collisions at Sea (known as COLREGS, for COLlision REGulationS). The COLREGS rules specify, for example, which vessel is responsible for giving way to the other and to which side of the 'stand-on' vessel to maneuver. Three primary COLREGS rules are considered in this paper: crossing, overtaking, and head-on situations. For autonomous USVs to be safely deployed in environments with other traffic boats, it is imperative that the USV's navigation algorithm obeys COLREGS. Furthermore, when other boats disregard their responsibility under COLREGS, the USV must fall back to its HA algorithms to prevent a collision. The proposed approach is based on velocity obstacles (VO) method, which generates a cone-shaped obstacle in the velocity space. Because VOs also specify on which side of the obstacle the vehicle will pass during the avoidance maneuver, COLREGS are encoded in the velocity space in a natural way. Results from several experiments involving up to four vessels are presented, in what we believe is the first on-water demonstration of autonomous COLREGS maneuvers without explicit intervehicle communication. We also show an application of this motion planner to a target trailing task, where a strategic planner commands USV waypoints based on high-level objectives, and the local motion planner ensures hazard avoidance and compliance with COLREGS during a traverse. \x{fffd}\x{fffd} 2013 IEEE.}
+      \field{isbn}{978-1-61284-455-8}
+      \field{issn}{0364-9059}
+      \field{journaltitle}{IEEE Journal of Oceanic Engineering}
+      \field{number}{1}
+      \field{title}{{Safe Maritime Autonomous Navigation With COLREGS, Using Velocity Obstacles}}
+      \field{volume}{39}
+      \field{year}{2014}
+      \field{pages}{110\bibrangedash 119}
+      \verb{doi}
+      \verb 10.1109/JOE.2013.2254214
+      \endverb
+      \verb{file}
+      \verb :home/pulver/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Kuwata et al. - 2014 - Safe Maritime Autonomous Navigation With COLREGS, Using Velocity Obstacles.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-84893674897%7B%5C&%7DpartnerID=tZOtx3y1
+      \endverb
+      \keyw{COLREGS,unmanned surface vehicle (USV),velocity obstacles (VOs)}
+    \endentry
+    \entry{Larson2007}{article}{}
+      \name{labelname}{6}{uniquelist=3}{%
+        {{uniquename=0,hash=4a7321b871e9ec4be8bb9057fb0cc6dc}{Larson}{L\bibinitperiod}{Jacoby}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=28220ebee46857bf1bafa799914b9d2d}{Bruch}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e563cca91102745c27fe7d19963ad8fb}{Ebken}{E\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c27247f4083b551f944a27ba0afa91a7}{Warfare}{W\bibinitperiod}{Naval}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b89cd2e37d46bfebbc42951c0088c31a}{Diego}{D\bibinitperiod}{San}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b89cd2e37d46bfebbc42951c0088c31a}{Diego}{D\bibinitperiod}{San}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{uniquelist=3}{%
+        {{uniquename=0,hash=4a7321b871e9ec4be8bb9057fb0cc6dc}{Larson}{L\bibinitperiod}{Jacoby}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=28220ebee46857bf1bafa799914b9d2d}{Bruch}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e563cca91102745c27fe7d19963ad8fb}{Ebken}{E\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c27247f4083b551f944a27ba0afa91a7}{Warfare}{W\bibinitperiod}{Naval}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b89cd2e37d46bfebbc42951c0088c31a}{Diego}{D\bibinitperiod}{San}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b89cd2e37d46bfebbc42951c0088c31a}{Diego}{D\bibinitperiod}{San}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d903e5ef9e4c26f6905f940cf0ebbc7c}
+      \strng{fullhash}{f9a0aa949f3574bc065cf725a2213c46}
+      \field{sortinit}{L}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Autonomous Navigation and Obstacle avoidance for unmanned surface vehicles}}
+      \field{isbn}{6195539775}
+      \field{title}{{Autonomous Navigation and Obstacle avoidance for unmanned surface vehicles}}
+      \field{year}{2007}
+      \field{pages}{17\bibrangedash 20}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Autonomous navigation and obstacle avoidance for unmanned surface vehicles.pdf:pdf
+      \endverb
+      \keyw{autonomous,obstacle avoidance,path,robotics,unmanned surface vehicle,usv,waypoint navigation}
+    \endentry
+    \entry{Larson2007a}{article}{}
+      \name{labelname}{5}{uniquelist=3}{%
+        {{uniquename=0,hash=4a7321b871e9ec4be8bb9057fb0cc6dc}{Larson}{L\bibinitperiod}{Jacoby}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=28220ebee46857bf1bafa799914b9d2d}{Bruch}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af8bc34611589f5610254278ee35619e}{Halterman}{H\bibinitperiod}{Ryan}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9515c48c34e85cdb5580f69ef9451f2e}{Rogers}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cbc90a6181769626771febe0084cd395}{Webster}{W\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{uniquelist=3}{%
+        {{uniquename=0,hash=4a7321b871e9ec4be8bb9057fb0cc6dc}{Larson}{L\bibinitperiod}{Jacoby}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=28220ebee46857bf1bafa799914b9d2d}{Bruch}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af8bc34611589f5610254278ee35619e}{Halterman}{H\bibinitperiod}{Ryan}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9515c48c34e85cdb5580f69ef9451f2e}{Rogers}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cbc90a6181769626771febe0084cd395}{Webster}{W\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fbf3df3ca70c115be6c33f1e96ed6895}
+      \strng{fullhash}{0bec645d494aff99304dd292d0a01d1d}
+      \field{sortinit}{L}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Advances in Autonomous Obstacle Avoidance for Unmanned Surface Vehicles}}
+      \field{abstract}{The Space and Naval Warfare Systems Center, San Diego has been involved in the continuing development of obstacle avoidance for unmanned surface vehicles (USVs) towards the aim of a high level of autonomous navigation. An autonomous USV can fulfill a variety of missions and applications that are of increasing interest for the US Navy and other Department of Defense and Department of Homeland Security organizations. The USV obstacle avoidance package is being developed first by accurately creating a world model based on various sensors such as vision, radar, and nautical charts. Then, with this world model the USV can avoid obstacles with the use of a far-field deliberative obstacle avoidance component and a near-field reactive obstacle avoidance component. This paper addresses the advances made in USV obstacle avoidance during the last two years.}
+      \field{isbn}{6195539775}
+      \field{journaltitle}{Techniques}
+      \field{title}{{Advances in Autonomous Obstacle Avoidance for Unmanned Surface Vehicles}}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 15}
+      \verb{file}
+      \verb :home/pulver/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Larson et al. - 2007 - Advances in Autonomous Obstacle Avoidance for Unmanned Surface Vehicles.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.74.4558%7B%5C&%7Damp;rep=rep1%7B%5C&%7Damp;type=pdf
+      \endverb
+      \keyw{autonomous,oa,obstacle avoidance,path planning,reactive,robotics,unmanned surface vehicle,usv}
+    \endentry
+    \entry{Leng2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=90f9509ac106fd2c2285b3401a9da30b}{Leng}{L\bibinitperiod}{Jing}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd903bc507de58459375d974764ab4ea}{Liu}{L\bibinitperiod}{Jian}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2e2b248aadd75959de34e392f8ed5d2d}{Xu}{X\bibinitperiod}{Hongli}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=90f9509ac106fd2c2285b3401a9da30b}{Leng}{L\bibinitperiod}{Jing}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fd903bc507de58459375d974764ab4ea}{Liu}{L\bibinitperiod}{Jian}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2e2b248aadd75959de34e392f8ed5d2d}{Xu}{X\bibinitperiod}{Hongli}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{26da462d3b66a5671ccdd6344a70f42c}
+      \strng{fullhash}{26da462d3b66a5671ccdd6344a70f42c}
+      \field{sortinit}{L}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Online path planning based on MILP for unmanned surface vehicles}}
+      \field{abstract}{This paper presents an algorithm for online path planning of USVs to navigate safely in dynamic, sophisticated environments of oceans. The proposed algorithm is based on Mixed Integer Linear Programming (MILP) which integrated with Velocity Obstacle (VO) approach. MILP is an optimization method under multiple constraint conditions of objective function maximization or minimization. The constraints of environment and maneuverability all can be considered and appended to the constraints conditions expressed in the form of inequality. The objective function and constraint conditions are required in linear by MILP, however, the motion of USV and its path planning are nonlinear. So the principle problem is to transform the nonlinear problem into the linear problem. On the other hand, VO makes a linear prediction, which is well appended into the constraint conditions. MILP has advantages in astringency, optimization, real-time and VO also has the advantages in real-time. The combination of MILP and VO utilized the advantages of rapidity of computations, which is well suited for embedded system of robotic applications. The algorithm is demonstrated via simulation with more safety and acclimation in sophisticated environments of oceans.}
+      \field{isbn}{VO -}
+      \field{journaltitle}{Oceans - San Diego, 2013}
+      \field{title}{{Online path planning based on MILP for unmanned surface vehicles}}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 7}
+      \verb{file}
+      \verb :home/pulver/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Leng, Liu, Xu - 2013 - Online path planning based on MILP for unmanned surface vehicles.pdf:pdf
+      \endverb
+      \keyw{Collision avoidance,Heuristic algorithms,Linear programming,MILP,Mathematical model,Online path planning,Optimization,Trajectory,USV,Velocity Obstacle,integer programming,linear programming,marine vehicles,minimisation,mixed integer linear programming,nonlinear problem,objective function maximization,objective function minimization,oceans,online path planning,optimization method,path planning,remotely operated vehicles,unmanned surface vehicle,velocity obstacle}
+    \endentry
+    \entry{Schuster2014}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=e7aebd648e4bfa5667b29d2cab0f2ad1}{Schuster}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c409ce309282c5a20eb835f0bd8af44d}{Blaich}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=62fc149b920bd1ae46246bbafac69daf}{Reuter}{R\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e7aebd648e4bfa5667b29d2cab0f2ad1}{Schuster}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c409ce309282c5a20eb835f0bd8af44d}{Blaich}{B\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=62fc149b920bd1ae46246bbafac69daf}{Reuter}{R\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d3af647124104bd42294a0350028e327}
+      \strng{fullhash}{d3af647124104bd42294a0350028e327}
+      \field{sortinit}{S}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Collision Avoidance for Vessels using a Low-Cost Radar Sensor}}
+      \field{number}{2009}
+      \field{title}{{Collision Avoidance for Vessels using a Low-Cost Radar Sensor}}
+      \field{year}{2014}
+      \field{pages}{9673\bibrangedash 9678}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Collision Avoidance for Vessels using a Low-Cost Radar Sensor.pdf:pdf
+      \endverb
+      \keyw{collision avoidance,colregs,interacting multiple model filter,path planning,raster grid,ship navigation}
+    \endentry
+    \entry{Simetti2014}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=53fc9904ad222aaa0ad881030e74e3d7}{Simetti}{S\bibinitperiod}{Enrico}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=736bf12332d05b9cbe743c365981caed}{Torelli}{T\bibinitperiod}{Sandro}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=14d5bcd1b078c541e9e6d204c1d6629e}{Casalino}{C\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e397ed5c819aee688f8dbaf084cac5bf}{Turetta}{T\bibinitperiod}{Alessio}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=53fc9904ad222aaa0ad881030e74e3d7}{Simetti}{S\bibinitperiod}{Enrico}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=736bf12332d05b9cbe743c365981caed}{Torelli}{T\bibinitperiod}{Sandro}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=14d5bcd1b078c541e9e6d204c1d6629e}{Casalino}{C\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e397ed5c819aee688f8dbaf084cac5bf}{Turetta}{T\bibinitperiod}{Alessio}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b703d8be16f9f37eee43043210b94f95}
+      \strng{fullhash}{61269e3024326d59ff84cb31992ebc42}
+      \field{sortinit}{S}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Experimental Results on Obstacle Avoidance for High Speed Unmanned Surface Vehicles}}
+      \field{isbn}{9781479949182}
+      \field{title}{{Experimental Results on Obstacle Avoidance for High Speed Unmanned Surface Vehicles}}
+      \field{year}{2014}
+      \field{pages}{\bibrangedash 5}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Experimental results on obstacle avoidance for high speed unmanned surface vehicles.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Tan2010}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=1,hash=b48b16b4911616f1ee26d5d96cd85634}{Tan}{T\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d824e3b87881a4564dee0321b5173e17}{Wee}{W\bibinitperiod}{Wong\bibnamedelima Chee}{W\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=9fbbe1fd502428d97e1f6a65462ed757}{Tan}{T\bibinitperiod}{Timothy\bibnamedelima Joe}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=b48b16b4911616f1ee26d5d96cd85634}{Tan}{T\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d824e3b87881a4564dee0321b5173e17}{Wee}{W\bibinitperiod}{Wong\bibnamedelima Chee}{W\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=9fbbe1fd502428d97e1f6a65462ed757}{Tan}{T\bibinitperiod}{Timothy\bibnamedelima Joe}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c7fb6b5bf5aaece9be3ba6739bf02757}
+      \strng{fullhash}{c7fb6b5bf5aaece9be3ba6739bf02757}
+      \field{sortinit}{T}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Criteria and rule based obstacle avoidance for USVs}}
+      \field{abstract}{In this paper, an obstacle avoidance solution based on rules and criteria is presented. The solution has two parts. In the first part, a set of candidate maneuvers is generated to track a given path. Each candidate differs in speed and in lateral offset to the tracked path. Thus, the USV has the option to change speeds or switch "lanes", or do both. In the second part, the most appropriate trajectory is selected for execution. High priority objectives, such as safety clearance, are represented quantitatively as rules. Candidate maneuvers that flout any of these rules are immediately rejected. Lower priority objectives, such as minimizing travel time, are represented as a priority list of selection criteria. From the remaining candidates, an iterative process of short listing maneuvers is performed. At each step, a single criterion is used to rank and select the top trajectories. The process is repeated for criteria of decreasing priority until only one maneuvers remains. The presented solution has been implemented and tested in simulation. Some of these simulation results will be presented.}
+      \field{booktitle}{2010 International WaterSide Security Conference}
+      \field{isbn}{978-1-4244-8894-0}
+      \field{title}{{Criteria and rule based obstacle avoidance for USVs}}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 6}
+      \verb{doi}
+      \verb 10.1109/WSSC.2010.5730288
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Criteria and rule based obstacle avoidaance for usv.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/xpl/freeabs%7B%5C_%7Dall.jsp?arnumber=5730288
+      \endverb
+    \endentry
+    \entry{Tang2012}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=159cc7b1e757fef30385e7078d1bee2b}{Tang}{T\bibinitperiod}{Pingpeng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f40fe130024eebab4faee11acdc216fa}{Zhang}{Z\bibinitperiod}{Rubo}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af81bda15e7ed820f9e7700f70d96b57}{Liu}{L\bibinitperiod}{Deli}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=774954b9dd4276fada93d5f124a3932e}{Zou}{Z\bibinitperiod}{Qijie}{Q\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=519d4f8da168997ab1d2c301f6ba1039}{Shi}{S\bibinitperiod}{Changting}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=159cc7b1e757fef30385e7078d1bee2b}{Tang}{T\bibinitperiod}{Pingpeng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f40fe130024eebab4faee11acdc216fa}{Zhang}{Z\bibinitperiod}{Rubo}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af81bda15e7ed820f9e7700f70d96b57}{Liu}{L\bibinitperiod}{Deli}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=774954b9dd4276fada93d5f124a3932e}{Zou}{Z\bibinitperiod}{Qijie}{Q\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=519d4f8da168997ab1d2c301f6ba1039}{Shi}{S\bibinitperiod}{Changting}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{01ba37d4b8c4dc7f90c19d2ae79b3665}
+      \strng{fullhash}{f58c6c0652ffd8d6895880c200b8e828}
+      \field{sortinit}{T}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Research on near-field obstacle avoidance for unmanned surface vehicle based on heading window}}
+      \field{isbn}{9781457720727}
+      \field{journaltitle}{Proceedings of the 2012 24th Chinese Control and Decision Conference, CCDC 2012}
+      \field{title}{{Research on near-field obstacle avoidance for unmanned surface vehicle based on heading window}}
+      \field{year}{2012}
+      \field{pages}{1262\bibrangedash 1267}
+      \verb{doi}
+      \verb 10.1109/CCDC.2012.6244200
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Research od Neaf field obstacle avoidance for unmanned surface vehicle based on heading window.pdf:pdf
+      \endverb
+      \keyw{"Divide and Conquer" Strategy,Dynamic Window method,Heading Window,Near-Field Obstacle-Avoidance,Tangent-Method,USV(Unmanned Surface Vehicle)}
+    \endentry
+    \entry{Wang2012}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=0664a31d75ae88d142a0e634df0ead4d}{Wang}{W\bibinitperiod}{Han}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d6a7071be2baf3c92197d175923584fa}{Wei}{W\bibinitperiod}{Zhuo}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0664a31d75ae88d142a0e634df0ead4d}{Wang}{W\bibinitperiod}{Han}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d6a7071be2baf3c92197d175923584fa}{Wei}{W\bibinitperiod}{Zhuo}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{475307ee38735cab4905bc0e0e2b7337}
+      \strng{fullhash}{475307ee38735cab4905bc0e0e2b7337}
+      \field{sortinit}{W}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Improvement in Real-time Obstacle Detection System for USV}}
+      \field{isbn}{9781467318723}
+      \field{number}{December}
+      \field{title}{{Improvement in Real-time Obstacle Detection System for USV}}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \field{pages}{5\bibrangedash 7}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Improvement in real time obstacle detection system for usv.pdf:pdf
+      \endverb
+      \keyw{benjamin feng,chek seng ow,computer vision,junjie,kah tong ho,obstacle detection,surface vehicle,unmanned,usv}
+    \endentry
+    \entry{Wang2011}{article}{}
+      \name{labelname}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=0664a31d75ae88d142a0e634df0ead4d}{Wang}{W\bibinitperiod}{Han}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d6a7071be2baf3c92197d175923584fa}{Wei}{W\bibinitperiod}{Zhuo}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=abd24d9a505b86207ae54b5da38abd76}{Wang}{W\bibinitperiod}{Sisong}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4da8aece975e453dd8e8cebd3737edc7}{Ow}{O\bibinitperiod}{Chek\bibnamedelima Seng}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3814a376e598388f14ce99690edbbc20}{Ho}{H\bibinitperiod}{Kah\bibnamedelima Tong}{K\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=74a167f320b3caba92f4a3339bb905d5}{Feng}{F\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=0664a31d75ae88d142a0e634df0ead4d}{Wang}{W\bibinitperiod}{Han}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d6a7071be2baf3c92197d175923584fa}{Wei}{W\bibinitperiod}{Zhuo}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=abd24d9a505b86207ae54b5da38abd76}{Wang}{W\bibinitperiod}{Sisong}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4da8aece975e453dd8e8cebd3737edc7}{Ow}{O\bibinitperiod}{Chek\bibnamedelima Seng}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3814a376e598388f14ce99690edbbc20}{Ho}{H\bibinitperiod}{Kah\bibnamedelima Tong}{K\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=74a167f320b3caba92f4a3339bb905d5}{Feng}{F\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0f2ef5b25c1b2669a66d4c7450ac2c04}
+      \strng{fullhash}{fdc2950a49925cd39ba81cdfdb016158}
+      \field{sortinit}{W}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{A vision-based obstacle detection system for unmanned surface vehicle}}
+      \field{abstract}{This paper describes a vision-based obstacle detection system for Unmanned Surface Vehicle (USV) towards the aim of real-time and high performance obstacle detection on the sea surface. By using both the monocular and stereo vision methods, the system offers the capacity of detecting and locating multiple obstacles in the range from 30 to 100 meters for high speed USV which runs at speeds up to 12 knots. Field tests in the real scenes have been taken and the obstacle detection system for USV is proven to provide stable and satisfactory performance.}
+      \field{isbn}{9781612842509}
+      \field{issn}{2158219X}
+      \field{journaltitle}{IEEE Conference on Robotics, Automation and Mechatronics, RAM - Proceedings}
+      \field{title}{{A vision-based obstacle detection system for unmanned surface vehicle}}
+      \field{year}{2011}
+      \field{pages}{364\bibrangedash 369}
+      \verb{doi}
+      \verb 10.1109/RAMECH.2011.6070512
+      \endverb
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/A vision based obstacle detection system for unmanned surface Vehicle.pdf:pdf
+      \endverb
+      \keyw{Unmanned Surface Vehicle (USV),computer vision,obstacle detection}
+    \endentry
+    \entry{Xie2014}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=477959e6e32c3ecabce3c8c5659e7636}{Xie}{X\bibinitperiod}{Shaorong}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8ee2464c666949638e7727e1d1d00985}{Wu}{W\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3dc47c28d0169174cf322e86bfd6d040}{Peng}{P\bibinitperiod}{Yan}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41a3c786850595ef9d8d5dd300b467cc}{Luo}{L\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d7793ad8cc1bcf81f6c523625df31a0d}{Gu}{G\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=477959e6e32c3ecabce3c8c5659e7636}{Xie}{X\bibinitperiod}{Shaorong}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8ee2464c666949638e7727e1d1d00985}{Wu}{W\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3dc47c28d0169174cf322e86bfd6d040}{Peng}{P\bibinitperiod}{Yan}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41a3c786850595ef9d8d5dd300b467cc}{Luo}{L\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d7793ad8cc1bcf81f6c523625df31a0d}{Gu}{G\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{85eebbd87ef20091663c52a549cb7df5}
+      \strng{fullhash}{f02a5951c60d6c31dc6040c4251e7271}
+      \field{sortinit}{X}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{The Obstacle Avoidance Planning of USV Based on Improved Artificial Potential Field}}
+      \field{isbn}{9781479941001}
+      \field{number}{12140500400}
+      \field{title}{{The Obstacle Avoidance Planning of USV Based on Improved Artificial Potential Field}}
+      \field{year}{2014}
+      \field{pages}{746\bibrangedash 751}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/The obstacle avoidance planning of usv based on improved artificial potential field.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Zhang2014}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=f40fe130024eebab4faee11acdc216fa}{Zhang}{Z\bibinitperiod}{Rubo}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=159cc7b1e757fef30385e7078d1bee2b}{Tang}{T\bibinitperiod}{Pingpeng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=78494a8737ad8c28dba6a6c76749aae8}{Su}{S\bibinitperiod}{Yumin}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=09dbda522d6a0d944d95e1bc979150ce}{Li}{L\bibinitperiod}{Xueyao}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=aea28139ba5a2d0b205da890b63300d4}{Yang}{Y\bibinitperiod}{Ge}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=519d4f8da168997ab1d2c301f6ba1039}{Shi}{S\bibinitperiod}{Changting}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=f40fe130024eebab4faee11acdc216fa}{Zhang}{Z\bibinitperiod}{Rubo}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=159cc7b1e757fef30385e7078d1bee2b}{Tang}{T\bibinitperiod}{Pingpeng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=78494a8737ad8c28dba6a6c76749aae8}{Su}{S\bibinitperiod}{Yumin}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=09dbda522d6a0d944d95e1bc979150ce}{Li}{L\bibinitperiod}{Xueyao}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=aea28139ba5a2d0b205da890b63300d4}{Yang}{Y\bibinitperiod}{Ge}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=519d4f8da168997ab1d2c301f6ba1039}{Shi}{S\bibinitperiod}{Changting}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f06610240c2c5ca2c027b4d0e8bd12f8}
+      \strng{fullhash}{1b01b2f8ffdea49a6cb82efc6f2ab69f}
+      \field{sortinit}{Z}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{An Adaptive Obstacle Avoidance Algorithm for Unmanned Surface Vehicle in Complicated Marine Environments}}
+      \field{journaltitle}{IEEE/CAA Journal of Automatica Sinica}
+      \field{number}{4}
+      \field{title}{{An Adaptive Obstacle Avoidance Algorithm for Unmanned Surface Vehicle in Complicated Marine Environments}}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{pages}{385\bibrangedash 396}
+      \verb{file}
+      \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/An adaptive obstacle avoidance algorithm for unmanned surface vehicle in complicated marine environments.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
 
-\bibitem{Azzabi}
-Tarek Azzabi.
-\newblock {Obstacle detection for Unmanned Surface Vehicle}.
-\newblock (5):1--7.
-
-\bibitem{Bertram2008}
-Volker Bertram.
-\newblock {Unmanned Surface Vehicles – A Survey}.
-\newblock {\em Skibsteknisk Selskab, Copenhagen, Denmark}, pages 1--14, 2008.
-
-\bibitem{Blaich2015}
-Michael Blaich, Steffen Koehler, Michael Schuster, Johannes Reuter, and Thomas
-  Tietz.
-\newblock {Mission Integrated Collision Avoidance for USVs using Laser Ranger}.
-\newblock {\em Oceans 2015 Mts/Ieee}, pages 0--5, 2015.
-
-\bibitem{Bouguet1999}
-Jean-yves Bouguet.
-\newblock {Pyramidal Implementation of the Lucas Kanade Feature Tracker
-  Description of the algorithm}.
-\newblock {\em In Practice}, 1(2):1--9, 1999.
-
-\bibitem{Casalino2009}
-Giuseppe Casalino, Alessio Turetta, and Enrico Simetti.
-\newblock {A three-layered architecture for real time path planning and
-  obstacle avoidance for surveillance USVs operating in harbour fields}.
-\newblock {\em Oceans 2009-Europe}, pages 1--8, 2009.
-
-\bibitem{Conference2013}
-Ieee~International Conference.
-\newblock {An Obstacle Avoidance Algorithm Designed for USV Based on Single
-  Beam Sonar and Fuzzy Control}.
-\newblock (December):2446--2451, 2013.
-
-\bibitem{Harris1988}
-C.~Harris and M.~Stephens.
-\newblock {A Combined Corner and Edge Detector}.
-\newblock {\em Procedings of the Alvey Vision Conference 1988}, pages 147--151,
-  1988.
-
-\bibitem{Khatib1985}
-O.~Khatib.
-\newblock {Real-time obstacle avoidance for manipulators and mobile robots}.
-\newblock {\em Proceedings. 1985 IEEE International Conference on Robotics and
-  Automation}, 2:500--505, 1985.
-
-\bibitem{Kuwata2014}
-Yoshiaki Kuwata, Michael~T. Wolf, Dimitri Zarzhitsky, and Terrance~L.
-  Huntsberger.
-\newblock {Safe Maritime Autonomous Navigation With COLREGS, Using Velocity
-  Obstacles}.
-\newblock {\em IEEE Journal of Oceanic Engineering}, 39(1):110--119, 2014.
-
-\bibitem{Larson2007}
-Jacoby Larson, Michael Bruch, John Ebken, Naval Warfare, San Diego, and San
-  Diego.
-\newblock {Autonomous Navigation and Obstacle avoidance for unmanned surface
-  vehicles}.
-\newblock pages 17--20, 2007.
-
-\bibitem{Larson2007a}
-Jacoby Larson, Michael Bruch, Ryan Halterman, John Rogers, and Robert Webster.
-\newblock {Advances in Autonomous Obstacle Avoidance for Unmanned Surface
-  Vehicles}.
-\newblock {\em Techniques}, pages 1--15, 2007.
-
-\bibitem{Leng2013}
-Jing Leng, Jian Liu, and Hongli Xu.
-\newblock {Online path planning based on MILP for unmanned surface vehicles}.
-\newblock {\em Oceans - San Diego, 2013}, pages 1--7, 2013.
-
-\bibitem{Schuster2014}
-Michael Schuster, Michael Blaich, and Johannes Reuter.
-\newblock {Collision Avoidance for Vessels using a Low-Cost Radar Sensor}.
-\newblock (2009):9673--9678, 2014.
-
-\bibitem{Simetti2014}
-Enrico Simetti, Sandro Torelli, Giuseppe Casalino, and Alessio Turetta.
-\newblock {Experimental Results on Obstacle Avoidance for High Speed Unmanned
-  Surface Vehicles}.
-\newblock pages 0--5, 2014.
-
-\bibitem{Tan2010}
-Aaron Tan, Wong~Chee Wee, and Timothy~Joe Tan.
-\newblock {Criteria and rule based obstacle avoidance for USVs}.
-\newblock In {\em 2010 International WaterSide Security Conference}, pages
-  1--6, 2010.
-
-\bibitem{Tang2012}
-Pingpeng Tang, Rubo Zhang, Deli Liu, Qijie Zou, and Changting Shi.
-\newblock {Research on near-field obstacle avoidance for unmanned surface
-  vehicle based on heading window}.
-\newblock {\em Proceedings of the 2012 24th Chinese Control and Decision
-  Conference, CCDC 2012}, pages 1262--1267, 2012.
-
-\bibitem{Wang2012}
-Han Wang and Zhuo Wei.
-\newblock {Improvement in Real-time Obstacle Detection System for USV}.
-\newblock 2012(December):5--7, 2012.
-
-\bibitem{Wang2011}
-Han Wang, Zhuo Wei, Sisong Wang, Chek~Seng Ow, Kah~Tong Ho, and Benjamin Feng.
-\newblock {A vision-based obstacle detection system for unmanned surface
-  vehicle}.
-\newblock {\em IEEE Conference on Robotics, Automation and Mechatronics, RAM -
-  Proceedings}, pages 364--369, 2011.
-
-\bibitem{Xie2014}
-Shaorong Xie, Peng Wu, Yan Peng, Jun Luo, and Jason Gu.
-\newblock {The Obstacle Avoidance Planning of USV Based on Improved Artificial
-  Potential Field}.
-\newblock (12140500400):746--751, 2014.
-
-\bibitem{Zhang2014}
-Rubo Zhang, Pingpeng Tang, Yumin Su, Xueyao Li, Ge~Yang, and Changting Shi.
-\newblock {An Adaptive Obstacle Avoidance Algorithm for Unmanned Surface
-  Vehicle in Complicated Marine Environments}.
-\newblock {\em IEEE/CAA Journal of Automatica Sinica}, 1(4):385--396, 2014.
-
-\end{thebibliography}
