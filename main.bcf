@@ -125,7 +125,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useauthor</bcf:key>
@@ -1968,31 +1968,39 @@
     <bcf:citekey order="2">Naeem2009</bcf:citekey>
     <bcf:citekey order="3">Almeida2009</bcf:citekey>
     <bcf:citekey order="4">Schuster2014</bcf:citekey>
-    <bcf:citekey order="5">Wang2011</bcf:citekey>
-    <bcf:citekey order="5">Wang2012</bcf:citekey>
-    <bcf:citekey order="6">Achanta2009</bcf:citekey>
-    <bcf:citekey order="7">Harris1988</bcf:citekey>
-    <bcf:citekey order="8">Bouguet1999</bcf:citekey>
-    <bcf:citekey order="9">Azzabi</bcf:citekey>
-    <bcf:citekey order="10">Larson2007</bcf:citekey>
-    <bcf:citekey order="10">Larson2007a</bcf:citekey>
-    <bcf:citekey order="11">Casalino2009</bcf:citekey>
-    <bcf:citekey order="12">Xie2014</bcf:citekey>
-    <bcf:citekey order="13">Khatib1985</bcf:citekey>
-    <bcf:citekey order="14">Conference2013</bcf:citekey>
-    <bcf:citekey order="15">Kuwata2014</bcf:citekey>
-    <bcf:citekey order="16">Larson2007</bcf:citekey>
-    <bcf:citekey order="17">Leng2013</bcf:citekey>
-    <bcf:citekey order="18">Kuwata2014</bcf:citekey>
-    <bcf:citekey order="19">Larson2007</bcf:citekey>
-    <bcf:citekey order="19">Larson2007a</bcf:citekey>
-    <bcf:citekey order="20">Casalino2009</bcf:citekey>
-    <bcf:citekey order="21">Simetti2014</bcf:citekey>
-    <bcf:citekey order="22">Tan2010</bcf:citekey>
-    <bcf:citekey order="23">Blaich2015</bcf:citekey>
-    <bcf:citekey order="24">Tang2012</bcf:citekey>
-    <bcf:citekey order="25">Zhang2014</bcf:citekey>
-    <bcf:citekey order="26">Tang2012</bcf:citekey>
+    <bcf:citekey order="5">Gonzalez:2001:DIP:559707</bcf:citekey>
+    <bcf:citekey order="6">Wang2011</bcf:citekey>
+    <bcf:citekey order="6">Wang2012</bcf:citekey>
+    <bcf:citekey order="7">Fischler1981</bcf:citekey>
+    <bcf:citekey order="8">Achanta2009</bcf:citekey>
+    <bcf:citekey order="9">Harris1988</bcf:citekey>
+    <bcf:citekey order="10">Bouguet1999</bcf:citekey>
+    <bcf:citekey order="11">Wang2011</bcf:citekey>
+    <bcf:citekey order="12">Wang2011</bcf:citekey>
+    <bcf:citekey order="13">Azzabi</bcf:citekey>
+    <bcf:citekey order="14">Maini2009</bcf:citekey>
+    <bcf:citekey order="15">Hough_1962</bcf:citekey>
+    <bcf:citekey order="16">Azzabi</bcf:citekey>
+    <bcf:citekey order="17">Azzabi</bcf:citekey>
+    <bcf:citekey order="18">Larson2007</bcf:citekey>
+    <bcf:citekey order="18">Larson2007a</bcf:citekey>
+    <bcf:citekey order="19">Casalino2009</bcf:citekey>
+    <bcf:citekey order="20">Xie2014</bcf:citekey>
+    <bcf:citekey order="21">Khatib1985</bcf:citekey>
+    <bcf:citekey order="22">Conference2013</bcf:citekey>
+    <bcf:citekey order="23">Kuwata2014</bcf:citekey>
+    <bcf:citekey order="24">Larson2007</bcf:citekey>
+    <bcf:citekey order="25">Leng2013</bcf:citekey>
+    <bcf:citekey order="26">Kuwata2014</bcf:citekey>
+    <bcf:citekey order="27">Larson2007</bcf:citekey>
+    <bcf:citekey order="27">Larson2007a</bcf:citekey>
+    <bcf:citekey order="28">Casalino2009</bcf:citekey>
+    <bcf:citekey order="29">Simetti2014</bcf:citekey>
+    <bcf:citekey order="30">Tan2010</bcf:citekey>
+    <bcf:citekey order="31">Blaich2015</bcf:citekey>
+    <bcf:citekey order="32">Tang2012</bcf:citekey>
+    <bcf:citekey order="33">Zhang2014</bcf:citekey>
+    <bcf:citekey order="34">Tang2012</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nyt">
   <bcf:sorting>

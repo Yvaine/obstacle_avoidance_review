@@ -22,6 +22,47 @@
 \usepackage{graphicx}
 \usepackage{filecontents}
 \begin{filecontents*}{biblio.bib}
+      @book{Gonzalez:2001:DIP:559707,
+       author = {Gonzalez, Rafael C. and Woods, Richard E.},
+       title = {Digital Image Processing},
+       year = {2001},
+       isbn = {0201180758},
+       edition = {2nd},
+       publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+       address = {Boston, MA, USA},
+      }
+      @misc{Hough_1962, place={United States}, title={METHOD AND MEANS FOR RECOGNIZING COMPLEX PATTERNS}, abstractNote={This patent relates to a method and means for recognizing a complex pattern in a picture.  The picture is divided into framelets, each framelet being sized so that any segment of the complex pattern therewithin is essentially a straight line. Each framelet is scanned to produce an electrical pulse for each point scanned on the segment therewithin. Each of the electrical pulses of each segment is then transformed into a separate strnight line to form a plane transform in a pictorial display. Each line in the plane transform of a segment is positioned laterally so that a point on the line midway between the top and the bottom of the pictorial display occurs at a distance from the left edge of the pictorial display equal to the distance of the generating point in the segment from the left edge of the framelet. Each line in the plane transform of a segment is inclined in the pictorial display at an angle to the vertical whose tangent is proportional to the vertical displacement of the generating point in the segment from the center of the framelet. The coordinate position of the point of intersection of the lines in the pictorial display for each segment is determined and recorded. The sum total of said recorded coordinate positions being representative of the complex pattern. (AEC)}, author={Hough, P.V.C.}, year={1962}, month={Dec}}
+      @article{Maini2009,
+      abstract = {Automatic image annotation techniques that try to identify the objects in images usually need the images to be segmented first, especially when specifically annotating image regions. The purpose of segmentation is to separate different objects in images from each other, so that objects can be processed as integral individuals. Therefore, annotation performance is highly influenced by the effectiveness of segmentation. Unfortunately, automatic segmentation is a difficult problem, and most of the current segmentation techniques do not guarantee good results. A multiple segmentations algorithm is proposed by Russell et al. [12] to discover objects and their extent in images. In this paper, we explore the novel use of multiple segmentations in the context of image auto-annotation. It is incorporated into a region based image annotation technique proposed in previous work, namely the training image based feature space approach. Three different levels of segmentations were generated for a 5000 image collection. Experimental results show that image auto-annotation achieves better performance when using all three segmentation levels together than using any single one on its own.},
+      author = {Maini, Raman and Aggarwal, H},
+      file = {:home/pulver/Dropbox/Universit{\`{a}}/PhD/Image processing/Study and comparison of various imahe edge detection techniques.pdf:pdf},
+      journal = {International Journal of Image Processing {\ldots}},
+      keywords = {digital image processing,edge detection,noise},
+      number = {3},
+      pages = {1--12},
+      title = {{Study and comparison of various image edge detection techniques}},
+      url = {http://wwwmath.tau.ac.il/{~}turkel/notes/Maini.pdf},
+      volume = {147002},
+      year = {2009}
+      }
+
+      @article{Fischler1981,
+      abstract = {A new paradigm, Random Sample Consensus (RANSAC), for fitting a model to experimental data is introduced. RANSAC is capable of interpreting/ smoothing data containing a significant percentage of gross errors, and is thus ideally suited for applications in automated image analysis where interpretation is based on the data provided by error-prone feature detectors. A major portion of this paper describes the application of RANSAC to the Location Determination Problem (LDP): Given an image depicting a set of landmarks with known locations, determine that point in space from which the image was obtained. In response to a RANSAC requirement, new results are derived on the minimum number of landmarks needed to obtain a solution, and algorithms are presented for computing these minimum-landmark solutions in closed form. These results provide the basis for an automatic system that can solve the LDP under difficult viewing and analysis conditions. Implementation details and computational examples are also presented.},
+      author = {Fischler, Martin a and Bolles, Robert C},
+      doi = {10.1145/358669.358692},
+      file = {:home/pulver/Desktop/PhD/Papers/Obstacle detection/ransac.pdf:pdf},
+      isbn = {0934613338},
+      issn = {0001-0782},
+      journal = {Communications of the ACM},
+      keywords = {automated cartography,camera calibration,computer{\_}vision,epipolar,geometry,image matching,keypoints,location determination,match-rejection,model fitting,motion-estimation,multi-view,rpc,scene analysis,sift,stereo,structure{\_}from{\_}motion,tracking},
+      number = {6},
+      pages = {381 -- 395},
+      title = {{Random Sample Consensus: A Paradigm for Model Fitting with Applicatlons to Image Analysis and Automated Cartography}},
+      url = {http://dx.doi.org/10.1145/358669.358692},
+      volume = {24},
+      year = {1981}
+      }
+
       @article{Naeem2009,
       abstract = {An adaptive navigation and control algorithm is presented in this paper based on fuzzy logic and optimal control techniques and applied on an unmanned surface vehicle platform. The navigation system consists of an extended Kalman filter with time-varying parameters. Whilst the autopilots include a fuzzy logic based linear quadratic Gaussian controller and a model predictive controller optimized using a genetic algorithm. Both the controllers use the output of the adaptive navigation system as their feedback and therefore creates an integrated system. A multiple waypoint following scenario is considered and tested in real time. Experimental results are shown that demonstrate the efficacy of the proposed system.},
       author = {Naeem, W. and Sutton, R.},
@@ -164,7 +205,8 @@
       keywords = {calculate the distance,experimentation results,flow,horizon line detection,matlab simulink,obstacle detection,optical,part will summarize the,the approaches used to,usv,while the forth},
       number = {5},
       pages = {1--7},
-      title = {{Obstacle detection for Unmanned Surface Vehicle}}
+      title = {{Obstacle detection for Unmanned Surface Vehicle}},
+      year = {2014}
       }
       @article{Wang2012,
       author = {Wang, Han and Wei, Zhuo},
@@ -403,7 +445,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
 
-\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+\usepackage[style=authoryear-ibid,firstinits,url=false,doi=false,isbn=false,backend=biber]{biblatex}
 \addbibresource{biblio.bib}
 % *** GRAPHICS RELATED PACKAGES ***
 %
@@ -507,25 +549,23 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
             \centering
 
             \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/springer}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/USV/springer}
             \caption{The Springer}\label{fig:springer}
             \end{subfigure}
             \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/spartan}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/USV/spartan}
             \caption{The Spartan}\label{fig:spartan}
             \end{subfigure}
 
             \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/barracuda}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/USV/barracuda}
             \caption{The Barracuda}\label{fig:barracuda}
             \end{subfigure}
             \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/owl_mk2}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/USV/owl_mk2}
             \caption{The Owl}\label{fig:owl}
             \end{subfigure}
-            \caption{Example of different USVs. In Fig.\ref{fig:springer} is represented the Springer, developed by Plymouth University for marine observation purposes. On the right, in Fig. \ref{fig:spartan}} the Spartan, a multi\-mission reconfigurable USV built by US Space and Naval Warfare System Center in San Diego. On the second row, on the left the canadian Barracuda (Fig.\ref{fig:barracuda}) while on the right, in Fig.\ref{fig:owl} the Owl MKII used for port security.
-
-
+            \caption{Example of different USVs. In Fig.\ref{fig:springer} is represented the Springer, developed by Plymouth University for marine observation purposes. On the right, in Fig.\ref{fig:spartan} the Spartan, a multi\-mission reconfigurable USV built by US Space and Naval Warfare System Center in San Diego. On the second row, on the left the canadian Barracuda (Fig.\ref{fig:barracuda}) while on the right, in Fig.\ref{fig:owl} the Owl MKII used for port security.}
       \end{figure}
 
 
@@ -538,37 +578,94 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
 
 \section{Obstacle Detection} \label{obs_det}
 
-      \indent To perfectly avoid the obstacles moving across the path of the autonomous vessel, an highly accurated world model is required. In order to obtain it, different sensors can be combined and data coming from them are usually fused in a 2D or 3D representation.
+      \indent To perfectly avoid obstacles moving across the path of autonomous vessels, an highly accurated world model is required. In order to obtain it, different sensors can be combined and data coming from them are usually fused in a 2D or 3D representation.
 
-      \indent In \parencite{Almeida2009} the authors suggest to use an ARP radar sensor to identify moving obstacles and shores, and classify targets in terms of collision threat. They identify a set of perimeters around the USV in order to decide appropriate measures: \textit{irrilevant} perimeter(3km), \textit{safe} perimeter(500m), \textit{warning} perimeter(250m) and \textit{prohibition} one(50m). Based on the \textit{Closest Point of Approach} (CPA), defined as the estimated distance between the USV and the detected object at the time in which such distant is minimal, they classify targets as \textit{No Threat} (CPA outside Irrilevant perimeter), \textit{Low Threat} (CPA crosses the Irrilevenat perimeter but not the Safe one), \textit{Potential Threat} (CPA crosses the safe perimeter but not the Prohibited one) and \textit{Dangerous} (CPA inside the Prohibition perimeter).
+      \indent In \parencite{Almeida2009} the authors suggest to use an ARP radar sensor to identify moving obstacles and shores, and classify targets in terms of collision threat. They identify a set of perimeters, shown in Fig.\ref{fig:perimeters}, around the USV in order to decide appropriate measures: \textit{irrilevant} perimeter(3km), \textit{safe} perimeter(500m), \textit{warning} perimeter(250m) and \textit{prohibition} one(50m). Based on the \textit{closest point of approach} (CPA), defined as the estimated minimum distance between the detected object and the USV along its path, they classify targets as \textit{no threat} (CPA outside irrilevant perimeter), \textit{low threat} (CPA crosses the irrilevenat perimeter but not the safe one), \textit{potential threat} (CPA crosses the safe perimeter but not the prohibited one) and \textit{dangerous} (CPA inside the prohibition perimeter).
 
-      \indent Low-Cost radars are also used in the work of Schuster \parencite{Schuster2014}. The aim of this work is to propose an on-board collision avoidance approach for those situations in which the Automatic Identification System (AIS) is unavailable, and therefore the position, course, speed and dimensions of other vessels have to be estimated by radar measurements.\\
+      \begin{figure}
+            \centering
+            \includegraphics[height=5cm]{./Images/Almeida/perimeters}
+            \caption{Safety perimeters for the USV}
+            \label{fig:perimeters}
+      \end{figure}
+
+
+      \indent Low-cost radars are also used in the work of \textcite{Schuster2014}. The aim of this work is to propose an on-board collision avoidance approach for those situations in which an automatic identification system (AIS) is unavailable, and therefore the position, course, speed and dimensions of other vessels have to be estimated by radar measurements.\\
       \indent In order to detect objects, data coming from radars need to be image preprocessing in the following way:
             \begin{itemize}
-                  \item Ego Motion Compensation: the azimuth of each scan in respect to the corresponging vessel's heading is calculated to compensate the vessel's yaw rate;
+                  \item Ego Motion Compensation: the vessel's yaw rate is compensated calculating the azimuth of each scan in respect to the vessel's heading;
                   \item Occupancy Likelihood Determination: assuming that the probability \textit{p} of a cell being reported as occupied is independent and constant, the occupancy likelihood is binomially distributed;
-                  \item Connected Component Labeling: a cell is assumed to contain a target if the occupancy probability is greater than 0.5; since a target usually extends of several hundred cells, adjacent, occupied cells are grouped using connected component labeling and each group is considered to be a target of elliptical shape.
+                  \item Connected Component Labeling: if the occupancy probability of one cell is greater than 0.5, it is considered as occupied;since a target is usuallt represented by many cells, adjacent occupied cells are grouped using connected component labeling \parencite{Gonzalez:2001:DIP:559707} to create an elliptical target.
             \end{itemize}
       The extracted target positions are very noisy, thus strong low pass filtering is required to obtain an object's true position, heading and velocity. To this scope, an \textit{Interactive Multiple Model} (IMM) filter is chosen: it runs several models in parallel and, based on the estimate of each model and the current measurement, a likelihood for each model to reflect the true motion state is determined. The output of the filter is a weighted sum of all model estimates and it is used by the collisions avoidance algorithm to predict the movement of the other vessels.
 
-      \indent Other approaches use monocular and stereo vision methods for recording the presence of obstacles in proximity (30 to 100 meters) of the vessel. An example is offered by the work of Wang \textit{et al.} \parencite{Wang2011,Wang2012} in which two cameras are mounted parallel about 1.5 meters apart on a metal bar: the image from the camera on the left is initially used to perform monocular obstacle detection, and then the stero approach is applied to process the image from both cameras to compute the 3D detection results. The monocular technique is composed as follows:
+      \indent Other approaches use monocular and stereo vision methods for recording the presence of obstacles in proximity (30 to 100 m.) of the vessel. An example is offered by the work of \textcite{Wang2011,Wang2012}, in which two cameras are mounted parallel about 1.5 m. apart on a metal bar: the image from the camera on the left is initially used to perform monocular obstacle detection, and then the stero approach is applied to process the image from both cameras to compute the 3D detection results. The monocular technique is composed as follows:
             \begin{itemize}
-                  \item Horizon Detection Module: it allows to distinguish the sea surface for obstacle detection; it is realized using pixel profile analysis and RANSAC method to perform line fitting and extract the horizon;
-                  \item Saliency Detection Module: as expressed in \parencite{Achanta2009}, an image mask is built and the Euclidean distance between the color pixel vector in the gaussian blurred image and the average vector for the original color image is calculated; the detected salients will be given in the form of bounding boxes and are taken as the potential interested obstacles;
-                  \item Harris Corner Extraction and Tracking Module: using the work proposed in \parencite{Harris1988} and \parencite{Bouguet1999}, motion evaluation is possible to distinguish surface obstacles from the potentials suggested by the saliency detection;
-                  \item Obstacle Detection Module: the data coming from the previous modules are combined to generate the final results; since it is pratical to measure the dynamics of a potential object to verify its validity as an obstacle, a tracked feature with long lifespan in the salient bounding box is labelled as of high priority and this link the obstacles in consecutive frames.
+                  \item Horizon Detection Module: it allows to distinguish the sea surface for obstacle detection; it is realized using pixel profile analysis and Random sample consensus (RANSAC) \parencite{Fischler1981} method to perform line fitting (Fig. \ref{fig:line-fitting}) and extract the horizon (Fig. \ref{fig:horizon});
+                  \item Saliency Detection Module: as expressed in \parencite{Achanta2009}, an image mask is built and the Euclidean distance between the color pixel vector in the Gaussian blurred image and the average vector for the original colour image is calculated; the detected salients will be given in the form of bounding boxes and are taken as the potential interested obstacles (Fig. \ref{fig:saliency});
+                  \item Harris Corner Extraction and Tracking Module: using the work proposed in \parencite{Harris1988} and \parencite{Bouguet1999}, motion evaluation is possible to distinguish surface obstacles from the potentials suggested by the saliency detection (Fig. \ref{fig:corner});
+                  \item Obstacle Detection Module: the data coming from the previous modules are combined to generate the final results (Fig.\ref{fig:monocular}); since it is pratical to measure the dynamics of a potential object to verify its validity as an obstacle, a tracked feature with long lifespan in the salient bounding box is labelled as of high priority and this link the obstacles in consecutive frames.
             \end{itemize}
-      \indent The stereo correspondence phase could be divided in three: an initial phase in which both cameras are calibrated so the results are used for stereo image undistortion and 3D reconstruction, an intermediate phase in which \textit{epipolar constraint} reduces the 2D search for obstacle correspondence, and then a \textit{stereo matching} phase in which the normalized cross correlation template matching method is adopted. Here, the bounding box of obstacles by monocular obstacle detection in the left image is considered as the template window while the search is conducted along its epipolar line in the right image. In the end, a Kalman Filter is applied on the horizontal disparity in order to eliminate the stereo matching error and improve the range estimation accuracy.
+      \indent The stereo correspondence phase could be divided in three: an initial phase in which both cameras are calibrated so the results are used for stereo image undistortion and 3D reconstruction, an intermediate phase in which \textit{epipolar constraint} reduces the 2D search for obstacle correspondence, and then a \textit{stereo matching} phase in which the normalized cross correlation template matching method is adopted. Here, the bounding box of obstacles by monocular obstacle detection in the left image is considered as the template window while the search is conducted along its epipolar line in the right image. In the end, a Kalman filter is applied on the horizontal disparity in order to eliminate the stereo matching error and improve the range estimation accuracy.
 
-      \indent A work similar to the previous one but that use only monular vision is the one proposed by Azzaby \textit{et al.} in \parencite{Azzabi}. As before, the authors detect the horizon first and then the obstacles in the scene; last, they estimate the distance between the USV and objects, knowing the relative angle of each object and the horizion line. The algorithm developed for horizon detection can be summerized as follows:
+      \begin{figure}
+            \centering
+            \includegraphics[height=5cm]{./Images/Wang/monocular}
+            \caption{Monocular obstalce detection results in two scenarios}
+            \label{fig:monocular}
+      \end{figure}
+
+      \begin{figure}
+            \centering
+
+            \begin{subfigure}[b]{.40\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/line-fitting}
+            \caption{Points with maximum or minimum gradients values from equidistant vertical lines}\label{fig:line-fitting}
+            \end{subfigure}
+            \begin{subfigure}[b]{.40\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/horizon}
+            \caption{Sea-sky line detection results}\label{fig:horizon}
+            \end{subfigure}
+
+            \begin{subfigure}[b]{.40\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/saliency}
+            \caption{Original image (left), normalized saliency map (middle) and binary mask (right)}\label{fig:saliency}
+            \end{subfigure}
+            \begin{subfigure}[b]{.40\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/corner}
+            \caption{Corner feature tracking}\label{fig:corner}
+            \end{subfigure}
+            \caption{Monocular vision algorithm developed by \textcite{Wang2011}: in Fig.\ref{fig:line-fitting} the line separating sea and sky is fitted with the RANSAC method and then, in Fig.\ref{fig:horizon}, the horizon is extracted. Ostacles on the sea surface are identified with saliency detection, Fig.\ref{fig:saliency}, and their corner are extracted and tracked, as shown in Fig.\ref{fig:corner}}
+      \end{figure}
+
+      \indent A work similar to the previous one but that use only monular vision is the one proposed by Azzaby \textit{et al.} \parencite{Azzabi}. As before, the authors detect the horizon first and then the obstacles in the scene; last, they estimate the distance between the USV and objects, knowing the relative angle of each object and the horizion line. The algorithm developed for horizon detection can be summarized as follows:
             \begin{itemize}
-                  \item Grey Level Transformation: applied to the input image to reduce image time processing (despite of a little loss of information);
-                  \item Sobel Operator: it performs a 2D spatial gradient measurement on the image to emphasizes regions of high spatial frequency that correspond to edges;
-                  \item Hough Transform: a line passing through two pixels in the image domain must lie on the intersection of two lines in Hough domain; in this wat the edge detections is performed;
+                  \item Grey Level Transformation: applied to the input image to reduce image time processing (despite of a little loss of information) (Fig.\ref{fig:greyscale});
+                  \item Sobel Operator: it performs a 2D spatial gradient measurement on the image to emphasizes regions of high spatial frequency that correspond to edges \parencite{Maini2009} (Fig.\ref{fig:sobel});
+                  \item Hough Transform: a line passing through two pixels in the image domain must lie on the intersection of two lines in Hough domain; in this wat the edge detections is performed \parencite{Hough_1962};
                   \item Line Election: it chooses the couple (\textit{a,b}) for which the line passes through the maximum of points and then traces this line that will be probably the horizon line.
             \end{itemize}
       \indent After this, the next step is to detect objects in motion using \textit{optical flow estimation}: given an input stream, the velocity of each pixel is firstly calculated; if a pixel has a velocity higher than a threshold value and is under the horizon, it is marked as moving and tracked and in the end the optical flow vector of each pixel is plotted in the frame.\\
-      \indent The output of the previous module is therefore used to estimate the distance from the USV to obstacles using a geometrical interpretation of the image.
+      \indent The output of the previous module is therefore used to estimate the distance from a USV to obstacles using a geometrical interpretation of the image.
+
+      \begin{figure}
+            \centering
+
+            \begin{subfigure}[b]{.30\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/original}
+            \caption{Original image}\label{fig:original}
+            \end{subfigure}
+            \begin{subfigure}[b]{.30\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/greyscale}
+            \caption{Greyscale image}\label{fig:greyscale}
+            \end{subfigure}
+            \begin{subfigure}[b]{.30\linewidth}
+            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/sobel}
+            \caption{Sobel transformation}\label{fig:sobel}
+            \end{subfigure}
+
+            \caption{In \parencite{Azzabi} the obstacles edges are identied firstly grey-transforming the monocular image (Fig.\ref{fig:greyscale}) and then applying the Sobel operator (Fig.\ref{fig:sobel})}
+      \end{figure}
 
 \section{Path Planner} \label{path_planner}
 

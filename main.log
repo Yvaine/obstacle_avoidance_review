@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  12 JAN 2016 10:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  13 JAN 2016 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,23 +566,29 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count284
 \@quotereset=\count285
- (./main.aux)
+
+
+Package biblatex Warning: Conflicting options.
+(biblatex)                'firstinits' conflicts with 'uniquename=full'.
+(biblatex)                Setting 'uniquename=init' on input line 477.
+
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 435.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 477.
+LaTeX Font Info:    ... okay on input line 477.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 477.
+LaTeX Font Info:    ... okay on input line 477.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 477.
+LaTeX Font Info:    ... okay on input line 477.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 477.
+LaTeX Font Info:    ... okay on input line 477.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 477.
+LaTeX Font Info:    ... okay on input line 477.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 477.
+LaTeX Font Info:    ... okay on input line 477.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 477.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -629,7 +635,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 435.
+LaTeX Info: Redefining \microtypecontext on input line 477.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -652,8 +658,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 435.
-Package biblatex Info: Reference segment=0 on input line 435.
+Package biblatex Info: Reference section=0 on input line 477.
+Package biblatex Info: Reference segment=0 on input line 477.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -661,7 +667,7 @@ Package caption Info: End \AtBeginDocument code.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 464.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 506.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -671,76 +677,138 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 469.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 511.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 499.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 541.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./Images/springer.jpg, id=12, 642.4pt x 481.8pt>
-File: ./Images/springer.jpg Graphic file (type jpg)
- <use ./Images/springer.jpg>
-Package pdftex.def Info: ./Images/springer.jpg used on input line 510.
+<./Images/USV/springer.jpg, id=12, 642.4pt x 481.8pt>
+File: ./Images/USV/springer.jpg Graphic file (type jpg)
+
+<use ./Images/USV/springer.jpg>
+Package pdftex.def Info: ./Images/USV/springer.jpg used on input line 552.
 (pdftex.def)             Requested size: 182.09587pt x 99.57831pt.
-Package epstopdf Info: Source file: <./Images/spartan.eps>
-(epstopdf)                    date: 2016-01-11 16:13:45
-(epstopdf)                    size: 98579 bytes
-(epstopdf)             Output file: <./Images/spartan-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-11 16:28:31
-(epstopdf)                    size: 72694 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Images/spartan-eps-conve
-rted-to.pdf ./Images/spartan.eps>
-(epstopdf)             \includegraphics on input line 514.
-Package epstopdf Info: Output file is already uptodate.
 
-<./Images/spartan-eps-converted-to.pdf, id=13, 361.35pt x 287.0725pt>
-File: ./Images/spartan-eps-converted-to.pdf Graphic file (type pdf)
+<./Images/USV/spartan.jpg, id=13, 451.6875pt x 357.335pt>
+File: ./Images/USV/spartan.jpg Graphic file (type jpg)
 
-<use ./Images/spartan-eps-converted-to.pdf>
-Package pdftex.def Info: ./Images/spartan-eps-converted-to.pdf used on input li
-ne 514.
-(pdftex.def)             Requested size: 182.0971pt x 99.58328pt.
+<use ./Images/USV/spartan.jpg>
+Package pdftex.def Info: ./Images/USV/spartan.jpg used on input line 556.
+(pdftex.def)             Requested size: 182.09848pt x 99.5842pt.
 
-<./Images/barracuda.JPG, id=14, 6022.5pt x 3388.66pt>
-File: ./Images/barracuda.JPG Graphic file (type jpg)
+<./Images/USV/barracuda.JPG, id=14, 6022.5pt x 3388.66pt>
+File: ./Images/USV/barracuda.JPG Graphic file (type jpg)
 
-<use ./Images/barracuda.JPG>
-Package pdftex.def Info: ./Images/barracuda.JPG used on input line 519.
+<use ./Images/USV/barracuda.JPG>
+Package pdftex.def Info: ./Images/USV/barracuda.JPG used on input line 561.
 (pdftex.def)             Requested size: 182.04564pt x 99.53543pt.
 
-<./Images/owl_mk2.jpg, id=15, 1355.0625pt x 1117.17375pt>
-File: ./Images/owl_mk2.jpg Graphic file (type jpg)
+<./Images/USV/owl_mk2.jpg, id=15, 1355.0625pt x 1117.17375pt>
+File: ./Images/USV/owl_mk2.jpg Graphic file (type jpg)
 
-<use ./Images/owl_mk2.jpg>
-Package pdftex.def Info: ./Images/owl_mk2.jpg used on input line 523.
+<use ./Images/USV/owl_mk2.jpg>
+Package pdftex.def Info: ./Images/USV/owl_mk2.jpg used on input line 565.
 (pdftex.def)             Requested size: 182.0778pt x 99.56964pt.
- [2] [3 <./Images/springer.jpg> <./Images/spartan-eps-converted-to.pdf> <./Imag
-es/barracuda.JPG> <./Images/owl_mk2.jpg>] [4]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 548.
+ [2] [3 <./Images/USV/springer.jpg> <./Images/USV/spartan.jpg> <./Images/USV/ba
+rracuda.JPG> <./Images/USV/owl_mk2.jpg>]
+<./Images/Almeida/perimeters.png, id=22, 629.35126pt x 364.36125pt>
+File: ./Images/Almeida/perimeters.png Graphic file (type png)
+
+<use ./Images/Almeida/perimeters.png>
+Package pdftex.def Info: ./Images/Almeida/perimeters.png used on input line 587
+.
+(pdftex.def)             Requested size: 245.72449pt x 142.26378pt.
+ [4]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 596.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 548.
- [5] [6] [7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 596.
+ [5 <./Images/Almeida/perimeters.png (PNG copy)>] [6]
+<./Images/Wang/monocular.png, id=32, 715.67375pt x 481.8pt>
+File: ./Images/Wang/monocular.png Graphic file (type png)
+
+<use ./Images/Wang/monocular.png>
+Package pdftex.def Info: ./Images/Wang/monocular.png used on input line 613.
+(pdftex.def)             Requested size: 211.31848pt x 142.26378pt.
+
+<./Images/Wang/line-fitting.png, id=33, 575.14874pt x 376.40625pt>
+File: ./Images/Wang/line-fitting.png Graphic file (type png)
+
+<use ./Images/Wang/line-fitting.png>
+Package pdftex.def Info: ./Images/Wang/line-fitting.png used on input line 622.
+
+(pdftex.def)             Requested size: 182.0943pt x 99.58635pt.
+
+<./Images/Wang/horizon.png, id=34, 507.8975pt x 379.4175pt>
+File: ./Images/Wang/horizon.png Graphic file (type png)
+
+<use ./Images/Wang/horizon.png>
+Package pdftex.def Info: ./Images/Wang/horizon.png used on input line 626.
+(pdftex.def)             Requested size: 182.09122pt x 99.5841pt.
+
+<./Images/Wang/saliency.png, id=35, 729.72626pt x 333.245pt>
+File: ./Images/Wang/saliency.png Graphic file (type png)
+
+<use ./Images/Wang/saliency.png>
+Package pdftex.def Info: ./Images/Wang/saliency.png used on input line 631.
+(pdftex.def)             Requested size: 182.08594pt x 99.58272pt.
+
+Underfull \hbox (badness 2080) in paragraph at lines 632--632
+[]\T1/ptm/m/n/10.95 (+20) (c) |Orig-i-nal im-age (left), nor-mal-ized
+ []
+
+<./Images/Wang/corner.png, id=36, 720.6925pt x 538.01pt>
+File: ./Images/Wang/corner.png Graphic file (type png)
+
+<use ./Images/Wang/corner.png>
+Package pdftex.def Info: ./Images/Wang/corner.png used on input line 635.
+(pdftex.def)             Requested size: 182.08614pt x 99.57954pt.
+ [7 <./Images/Wang/monocular.png (PNG copy)>]
+[8 <./Images/Wang/line-fitting.png (PNG copy)> <./Images/Wang/horizon.png (PNG 
+copy)> <./Images/Wang/saliency.png (PNG copy)> <./Images/Wang/corner.png (PNG c
+opy)>] <./Images/Azzabi/original.jpg, id=44, 504.88625pt x 380.42125pt>
+File: ./Images/Azzabi/original.jpg Graphic file (type jpg)
+
+<use ./Images/Azzabi/original.jpg>
+Package pdftex.def Info: ./Images/Azzabi/original.jpg used on input line 655.
+(pdftex.def)             Requested size: 136.57533pt x 99.58054pt.
+
+<./Images/Azzabi/greyscale.jpg, id=45, 500.87125pt x 376.40625pt>
+File: ./Images/Azzabi/greyscale.jpg Graphic file (type jpg)
+
+<use ./Images/Azzabi/greyscale.jpg>
+Package pdftex.def Info: ./Images/Azzabi/greyscale.jpg used on input line 659.
+(pdftex.def)             Requested size: 136.57451pt x 99.58635pt.
+
+<./Images/Azzabi/sobel.png, id=46, 496.85625pt x 377.41pt>
+File: ./Images/Azzabi/sobel.png Graphic file (type png)
+
+<use ./Images/Azzabi/sobel.png>
+Package pdftex.def Info: ./Images/Azzabi/sobel.png used on input line 663.
+(pdftex.def)             Requested size: 136.57144pt x 99.58125pt.
+ [9 <./Images/Azzabi/original.jpg> <./Images/Azzabi/greyscale.jpg> <./Images/Az
+zabi/sobel.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 579.
- [8]
-[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] (./main.aux)
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 676.
+ [10] [11] [12]
+[13] [14] [15] [16] [17] [18] [19] [20] [21] [22] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12357 strings out of 495028
- 199713 string characters out of 6181497
- 624710 words of memory out of 5000000
- 15108 multiletter control sequences out of 15000+600000
- 60864 words of font info for 217 fonts, out of 8000000 for 9000
+ 12443 strings out of 495028
+ 201947 string characters out of 6181497
+ 625128 words of memory out of 5000000
+ 15203 multiletter control sequences out of 15000+600000
+ 54788 words of font info for 205 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 53i,8n,92p,3010b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,8n,92p,3010b,1271s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
@@ -753,10 +821,10 @@ cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 6788574 bytes).
+Output written on main.pdf (22 pages, 8109784 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33301 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 29250 words of extra memory for PDF output out of 29859 (max. 10000000)
 
