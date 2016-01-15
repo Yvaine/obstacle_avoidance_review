@@ -92,6 +92,42 @@
       \verb :home/pulver/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Almeida et al. - 2009 - Radar Based Collision detection developments on USV ROAZ II.pdf:pdf
       \endverb
     \endentry
+    \entry{4124872}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{uniquename=0,hash=0423c8bb67a3ff0eb178e11ac64d89c3}{Alves}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5ff9451d603897b613ec62ec072d0f4a}{Oliveira}{O\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=06e82de28f19a90fdb6f88eabcfb82c3}{Oliveira}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=609d7b637683a31bf59ff6c80338d90f}{Pascoal}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8dab10ba2d4a8c76b2a16f854e273d92}{Rufino}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f732007e3191066cf3b5b93173820ee8}{Sebastiao}{S\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=24b66be2ab511440af9a5448b5452b41}{Silvestre}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=0423c8bb67a3ff0eb178e11ac64d89c3}{Alves}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5ff9451d603897b613ec62ec072d0f4a}{Oliveira}{O\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=06e82de28f19a90fdb6f88eabcfb82c3}{Oliveira}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=609d7b637683a31bf59ff6c80338d90f}{Pascoal}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8dab10ba2d4a8c76b2a16f854e273d92}{Rufino}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f732007e3191066cf3b5b93173820ee8}{Sebastiao}{S\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=24b66be2ab511440af9a5448b5452b41}{Silvestre}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8ceb75d9b4fa91b58e8f5518bf845863}
+      \strng{fullhash}{475112ad44b16deadfdbb14b6529d369}
+      \field{sortinit}{A}
+      \field{labelyear}{2006}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Vehicle and Mission Control of the DELFIM Autonomous Surface Craft}
+      \field{booktitle}{Control and Automation, 2006. MED '06. 14th Mediterranean Conference on}
+      \field{month}{06}
+      \field{title}{Vehicle and Mission Control of the DELFIM Autonomous Surface Craft}
+      \field{year}{2006}
+      \field{pages}{1\bibrangedash 6}
+      \verb{doi}
+      \verb 10.1109/MED.2006.328689
+      \endverb
+      \keyw{data acquisition;marine vehicles;mobile robots;Atlantic;Azores islands;DELFIM autonomous surface craft;ISR/IST;acoustic relay;automatic marine data acquisition;mission control;submerged craft;support vessel;vehicle control;Acoustic testing;Automatic control;Control systems;Data acquisition;Mobile robots;Navigation;Relays;Remotely operated vehicles;Sea surface;Underwater acoustics}
+    \endentry
     \entry{Azzabi}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=bfdf1f5e4171cd312bddd0603b474c2c}{Azzabi}{A\bibinitperiod}{Tarek}{T\bibinitperiod}{}{}{}{}}%
@@ -235,14 +271,22 @@
       \keyw{AUVs,Art,Marine vehicles,Mobile robots,Path planning,ROV,Radar tracking,Remotely operated vehicles,Sea surface,Surveillance,Underwater vehicles,Vehicle safety,autonomous vehicles,collision avoidance,gliders,harbour fields,kinematic data,marine application,marine safety,mobile robots,obstacle avoidance problem,obstacle detection sensors,radar,real time path planning,remotely operated vehicles,robot kinematics,robotic,security,security applications,surveillance,surveillance unmanned surface vehicles,teleoperated vehicles,telerobotics,three-layered architecture,underwater application,underwater vehicles}
     \endentry
     \entry{Conference2013}{article}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=5a58b685315721a5d44f9eee4292229e}{Conference}{C\bibinitperiod}{Ieee\bibnamedelima International}{I\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=f12458352bf48d8ebe2ba46b11310c19}{Chen}{C\bibinitperiod}{Jie}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=188e0b0486b277245804f98bce4641f9}{Pan}{P\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8a3b0cb903dee9da4219a363672852b2}{Guo}{G\bibinitperiod}{Tinbin}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c65f1899f75ea986c2809e7fb8fc5aa5}{Huang}{H\bibinitperiod}{Chaoxi}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d4f6d83c37268e0db72756b667deeed}{Wu}{W\bibinitperiod}{Haitao}{H\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=5a58b685315721a5d44f9eee4292229e}{Conference}{C\bibinitperiod}{Ieee\bibnamedelima International}{I\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=f12458352bf48d8ebe2ba46b11310c19}{Chen}{C\bibinitperiod}{Jie}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=188e0b0486b277245804f98bce4641f9}{Pan}{P\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8a3b0cb903dee9da4219a363672852b2}{Guo}{G\bibinitperiod}{Tinbin}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c65f1899f75ea986c2809e7fb8fc5aa5}{Huang}{H\bibinitperiod}{Chaoxi}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d4f6d83c37268e0db72756b667deeed}{Wu}{W\bibinitperiod}{Haitao}{H\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{5a58b685315721a5d44f9eee4292229e}
-      \strng{fullhash}{5a58b685315721a5d44f9eee4292229e}
+      \strng{namehash}{9e4bf25f043fa6b81b9954b8e1dd3f71}
+      \strng{fullhash}{f467e3219fd2815d26cc1a087bd048a6}
       \field{sortinit}{C}
       \field{labelyear}{2013}
       \field{datelabelsource}{}
@@ -254,6 +298,57 @@
       \field{pages}{2446\bibrangedash 2451}
       \verb{file}
       \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/An obstacle avoidance algorithm designed for usv based on single beam sonar and duzzy control.pdf:pdf
+      \endverb
+    \endentry
+    \entry{EWD:NumerMath59}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=cfb34b48f21acf636445fcb062374bc4}{Dijkstra}{D\bibinitperiod}{Edsger.\bibnamedelimi W.}{E\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cfb34b48f21acf636445fcb062374bc4}{Dijkstra}{D\bibinitperiod}{Edsger.\bibnamedelimi W.}{E\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cfb34b48f21acf636445fcb062374bc4}
+      \strng{fullhash}{cfb34b48f21acf636445fcb062374bc4}
+      \field{sortinit}{D}
+      \field{labelyear}{1959}
+      \field{datelabelsource}{}
+      \field{labeltitle}{A note on two problems in connexion with graphs.}
+      \field{journaltitle}{Numerische Mathematik}
+      \field{title}{A note on two problems in connexion with graphs.}
+      \field{volume}{1}
+      \field{year}{1959}
+      \field{pages}{269\bibrangedash 271}
+    \endentry
+    \entry{Ettinger2003}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=210ae7bdc4521d7e067ece13037a5b68}{Ettinger}{E\bibinitperiod}{Sm}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c5437e35917e1c702a249279a7da4fce}{Nechyba}{N\bibinitperiod}{Mc}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c1623b10e9761d975dbdc449a7caaa2c}{Ifju}{I\bibinitperiod}{Pg}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69691c7bdcc3ce6d5d8a1361f22d04ac}{M}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=210ae7bdc4521d7e067ece13037a5b68}{Ettinger}{E\bibinitperiod}{Sm}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c5437e35917e1c702a249279a7da4fce}{Nechyba}{N\bibinitperiod}{Mc}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c1623b10e9761d975dbdc449a7caaa2c}{Ifju}{I\bibinitperiod}{Pg}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69691c7bdcc3ce6d5d8a1361f22d04ac}{M}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{3a0e8eed98de9c1318ca49cd297a3a7f}
+      \strng{fullhash}{a87410e21005e3f4d6fb736f57f3823e}
+      \field{sortinit}{E}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Towards flight autonomy: Vision-based horizon detection for micro air vehicles}}
+      \field{journaltitle}{Florida Conference on}
+      \field{number}{17}
+      \field{title}{{Towards flight autonomy: Vision-based horizon detection for micro air vehicles}}
+      \field{volume}{7}
+      \field{year}{2003}
+      \field{pages}{617\bibrangedash 640}
+      \verb{file}
+      \verb :home/pulver/Desktop/PhD/Papers/Flying Robots/Towards flight autonomy$\backslash$: vision-based horizon detection for micro air vehicles.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.6951%7B%5C&%7Damp;rep=rep1%7B%5C&%7Damp;type=pdf
       \endverb
     \endentry
     \entry{Fischler1981}{article}{}
@@ -285,9 +380,6 @@
       \endverb
       \verb{file}
       \verb :home/pulver/Desktop/PhD/Papers/Obstacle detection/ransac.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1145/358669.358692
       \endverb
       \keyw{automated cartography,camera calibration,computer{\_}vision,epipolar,geometry,image matching,keypoints,location determination,match-rejection,model fitting,motion-estimation,multi-view,rpc,scene analysis,sift,stereo,structure{\_}from{\_}motion,tracking}
     \endentry
@@ -344,6 +436,37 @@
       \verb{file}
       \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Obstacle detection/A combined corner and edge detector.pdf:pdf
       \endverb
+    \endentry
+    \entry{4082128}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=087765c38474d1565e23a8a8bf62b109}{Hart}{H\bibinitperiod}{P.E.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30185b86fa6d01400377059a302f1ee3}{Nilsson}{N\bibinitperiod}{N.J.}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=407f0342244431ba73a5fb5f622af36a}{Raphael}{R\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=087765c38474d1565e23a8a8bf62b109}{Hart}{H\bibinitperiod}{P.E.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30185b86fa6d01400377059a302f1ee3}{Nilsson}{N\bibinitperiod}{N.J.}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=407f0342244431ba73a5fb5f622af36a}{Raphael}{R\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6244c5ea83f78a57e3d300a60505b5f8}
+      \strng{fullhash}{6244c5ea83f78a57e3d300a60505b5f8}
+      \field{sortinit}{H}
+      \field{labelyear}{1968}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{}
+      \field{labeltitle}{A Formal Basis for the Heuristic Determination of Minimum Cost Paths}
+      \field{issn}{0536-1567}
+      \field{journaltitle}{Systems Science and Cybernetics, IEEE Transactions on}
+      \field{month}{07}
+      \field{number}{2}
+      \field{title}{A Formal Basis for the Heuristic Determination of Minimum Cost Paths}
+      \field{volume}{4}
+      \field{year}{1968}
+      \field{pages}{100\bibrangedash 107}
+      \verb{doi}
+      \verb 10.1109/TSSC.1968.300136
+      \endverb
+      \keyw{Automatic control;Automatic programming;Chemical technology;Costs;Functional programming;Gradient methods;Instruction sets;Mathematical programming;Minimax techniques;Minimization methods}
     \endentry
     \entry{Hough_1962}{misc}{}
       \name{labelname}{1}{}{%
