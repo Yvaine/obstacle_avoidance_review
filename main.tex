@@ -641,15 +641,39 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
       Because the extracted target positions are very noisy, a low pass filter is adopted to get the object's true position, heading and velocity. To this scope, an \textit{Interactive Multiple Model} (IMM) filter is chosen: it runs several models in parallel and, based on the estimate of each model and the current measurement, a likelihood for each model to reflect the true motion state is determined. The output of the filter is a weighted sum of all model estimates and it is used by the collisions avoidance algorithm to predict the movement of the other vessels.\\
       The experiments conducted by the authors demonstrated a fast and robust technique for tracking obstacles on the sea surface, even if the accuracy in the position and velocity can be improved.
 
-      \indent Other approaches use monocular and stereo vision methods for recording the presence of obstacles in proximity (30 to 100 m.) of the vessel. An example is offered by the work of \textcite{Wang2011,Wang2012}, that uses two cameras mounted parallel on a metal bar: the image from the camera on the left is initially used to perform monocular obstacle detection, and then the stero approach is applied to process the image from both cameras to compute the 3D detection results.\\
+      \indent Other approaches use monocular and stereo vision methods for recording the presence of obstacles in proximity (30 to 100 m.) of the vessel. An example is offered by the work of \textcite{Wang2011,Wang2012}, that uses two cameras mounted parallel on a metal bar: the image from the camera on the left is initially used to perform monocular obstacle detection, and then the stero approach is applied to the image from both cameras to compute the 3D detection results.\\
       The monocular technique is composed as follows:
             \begin{itemize}
                   \item Horizon Detection Module: it allows to distinguish the sea surface; it is realized using pixel profile analysis and Random sample consensus (RANSAC) \parencite{Fischler1981} method to perform line fitting (Fig. \ref{fig:line-fitting}) and extract the horizon (Fig. \ref{fig:horizon});
                   \item Saliency Detection Module: as expressed in \parencite{Achanta2009}, a binary mask is built and the detected salients will be given in the form of bounding boxes and considered of potential interest (Fig. \ref{fig:saliency});
                   \item Harris Corner Extraction and Tracking Module: using the work proposed in \parencite{Harris1988} and \parencite{Bouguet1999}, surface obstacles are distinguished among the potential identified previously (Fig. \ref{fig:corner});
-                  \item Obstacle Detection Module: the data coming from the previous steps are combined to generate the final results (Fig.\ref{fig:monocular}); since it is pratical to measure the dynamics of a potential object to verify its validity as an obstacle, a tracked feature with long lifespan in the salient bounding box is labelled as of high priority and this link the obstacles in consecutive frames.
+                  \item Obstacle Detection Module: the final results (Fig.\ref{fig:monocular}) are obtained combining data coming from previous steps; to verify the validity of a potential object as an obstacle, a tracked feature with long lifespan in the salient bounding box is labelled as of high priority and this link the obstacles in consecutive frames.
             \end{itemize}
-      \indent The stereo correspondence phase could be divided in three: an initial phase in which both cameras are calibrated so the results are used for stereo image undistortion and 3D reconstruction, an intermediate phase in which \textit{epipolar constraint} reduces the 2D search for obstacle correspondence, and then a \textit{stereo matching} phase in which the normalized cross correlation template matching method is adopted. Here, the bounding box of obstacles by monocular obstacle detection in the left image is considered as the template window while the search is conducted along its epipolar line in the right image. In the end, a Kalman filter is applied on the horizontal disparity in order to eliminate the stereo matching error and improve the range estimation accuracy.\\
+
+            \begin{figure}
+                  \centering
+
+                  \begin{subfigure}[b]{.40\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/line-fitting}
+                  \caption{}\label{fig:line-fitting}
+                  \end{subfigure}
+                  \begin{subfigure}[b]{.40\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/horizon}
+                  \caption{}\label{fig:horizon}
+                  \end{subfigure}
+
+                  \begin{subfigure}[b]{.40\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/saliency}
+                  \caption{}\label{fig:saliency}
+                  \end{subfigure}
+                  \begin{subfigure}[b]{.40\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/corner}
+                  \caption{}\label{fig:corner}
+                  \end{subfigure}
+                  \caption{Monocular vision algorithm developed by \textcite{Wang2011}: in Fig.\ref{fig:line-fitting} the line separating sea and sky is fitted with the RANSAC method and then, in Fig.\ref{fig:horizon}, the horizon is extracted. Obstacles on the sea surface are identified with saliency detection, Fig.\ref{fig:saliency}, and their corner are extracted and tracked, as shown in Fig.\ref{fig:corner}}
+            \end{figure}
+
+      \indent The stereo correspondence phase could be divided in three: an initial phase in which both cameras are calibrated and the results are used for 3D reconstruction, an intermediate phase in which \textit{epipolar constraint} reduces the 2D search for obstacle correspondence, and then a \textit{stereo matching} phase in which the normalized cross correlation template matching method is adopted. Here, the bounding box of obstacles detetcted by the monocular technique is searched for along its epipolar line in the right image. In the end, a Kalman filter is applied on the horizontal disparity in order to eliminate the stereo matching error and improve the range estimation accuracy.\\
       This approach has shown good results until 100 m. far from the USV, despite low-resolution (640 x 480) images were used during the experiments. Therefore it is rational to believe that with more advanced cameras is it possible to improve the performance also for longer distance, even if increasing the image resolution means increasing the computation cost too.
 
       \begin{figure}
@@ -659,57 +683,41 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
             \label{fig:monocular}
       \end{figure}
 
-      \begin{figure}
-            \centering
-
-            \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/line-fitting}
-            \caption{}\label{fig:line-fitting}
-            \end{subfigure}
-            \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/horizon}
-            \caption{}\label{fig:horizon}
-            \end{subfigure}
-
-            \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/saliency}
-            \caption{}\label{fig:saliency}
-            \end{subfigure}
-            \begin{subfigure}[b]{.40\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Wang/corner}
-            \caption{}\label{fig:corner}
-            \end{subfigure}
-            \caption{Monocular vision algorithm developed by \textcite{Wang2011}: in Fig.\ref{fig:line-fitting} the line separating sea and sky is fitted with the RANSAC method and then, in Fig.\ref{fig:horizon}, the horizon is extracted. Obstacles on the sea surface are identified with saliency detection, Fig.\ref{fig:saliency}, and their corner are extracted and tracked, as shown in Fig.\ref{fig:corner}}
-      \end{figure}
-
       \indent A work similar to the previous one but that use only monular vision is the one proposed by Azzaby \textit{et al.} \parencite{Azzabi}. As before, the authors detect the horizon first and then the obstacles in the scene; last, they estimate the distance between the USV and objects, knowing the relative angle of each object and the horizion line. The algorithm developed for horizon detection can be summarized as follows:
             \begin{itemize}
                   \item Grey Level Transformation: the acquired image is transformed in grey scale to reduce image time processing (despite of a little loss of information) (Fig.\ref{fig:greyscale});
                   \item Sobel Operator: applied to the preprocessed image to identify those regions with high spatial frequency, mostly corresponding to edges \parencite{Maini2009} (Fig.\ref{fig:sobel});
-                  \item Hough Transform: a line passing through two pixels in the image domain must lie on the intersection of two lines in Hough domain; in this way the edge detections is performed \parencite{Hough_1962};
-                  \item Line Election: it chooses the couple (\textit{a,b}) for which the line passes through the maximum of points and then traces this line that will be probably the horizon line.
+                  \item Hough Transform: the edge detections is performed \parencite{Hough_1962} knowing that two pixels in the image domain must lie on the intersection of two lines in Hough domain;
+                  \item Line Election: the horizon line is considered as the line that, given a couple (\textit{a,b}), passes through the maximum number of points.
             \end{itemize}
-      \indent After this, the next step is to detect objects in motion using \textit{optical flow estimation}: given an input stream, the velocity of each pixel is firstly calculated; if a pixel has a velocity higher than a threshold value and is under the horizon, it is marked as moving and tracked and in the end the optical flow vector of each pixel is plotted in the frame.\\
-      \indent The output of the previous module is therefore used to estimate the distance from a USV to obstacles using a geometrical interpretation of the image.\\
+
+            \begin{figure}
+                  \centering
+
+                  \begin{subfigure}[b]{.30\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/original}
+                  \caption{Original image}\label{fig:original}
+                  \end{subfigure}
+                  \begin{subfigure}[b]{.30\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/greyscale}
+                  \caption{Greyscale image}\label{fig:greyscale}
+                  \end{subfigure}
+                  \begin{subfigure}[b]{.30\linewidth}
+                  \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/sobel}
+                  \caption{Sobel transformation}\label{fig:sobel}
+                  \end{subfigure}
+
+                  \caption{In \parencite{Azzabi} the obstacles edges are identied firstly grey-transforming the monocular image (Fig.\ref{fig:greyscale}) and then applying the Sobel operator (Fig.\ref{fig:sobel})}
+            \end{figure}
+      \indent After this, objects in motion are detected using \textit{optical flow estimation}: given an input stream, the velocity of each pixel is firstly calculated; if a pixel has a velocity higher than a threshold value and is under the horizon, it is marked as moving and tracked and in the end the optical flow vector of each pixel is plotted in the frame.\\
+      \indent The output of the previous module is therefore used to estimate the distance from a USV to obstacles using a geometrical interpretation of the image (Fig.\ref{fig:geometric}).\\
       The contribution of this work is given by the use of greyscale image, and techniques that could be applied on it, to reduce the computational effort required by other algorithm such as \parencite{Ettinger2003} adopted in the work of \textcite{Larson2007a}.
 
       \begin{figure}
             \centering
-
-            \begin{subfigure}[b]{.30\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/original}
-            \caption{Original image}\label{fig:original}
-            \end{subfigure}
-            \begin{subfigure}[b]{.30\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/greyscale}
-            \caption{Greyscale image}\label{fig:greyscale}
-            \end{subfigure}
-            \begin{subfigure}[b]{.30\linewidth}
-            \includegraphics[width=\linewidth, height= 3.5cm]{./Images/Azzabi/sobel}
-            \caption{Sobel transformation}\label{fig:sobel}
-            \end{subfigure}
-
-            \caption{In \parencite{Azzabi} the obstacles edges are identied firstly grey-transforming the monocular image (Fig.\ref{fig:greyscale}) and then applying the Sobel operator (Fig.\ref{fig:sobel})}
+            \includegraphics[height=5cm]{./Images/Azzabi/geometric}
+            \caption{A trigonometric estimation of the distance from the USV to the obstacles is given by the distance to the horizon coupled the relative angle between this and the obstacle. }
+            \label{fig:geometric}
       \end{figure}
 
 \section{Path Planner} \label{path_planner}
@@ -720,9 +728,9 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
 
         \subsection{Global Path Planner} \label{gpp}
 
-              The goal of the GPP is to continuosly modify the existing waypoint route to plan around obstacles detected with the long-range sensors. In the work of \textcite{Larson2007,Larson2007a}, the path planners use a two-dimensional (2D) obstacle map created by dividing the environment into a discrete grid and assigning each cell location a value representing the probability of being occupied or not by an obstacle. This is filled with stationary obstacles from the \textit{chart server} and moving obstacles provided by the radar. The underlying search technique is the A* search algorithm \parencite{4082128}, chosen because it can find an optimal solution in a short amount of time. Since A* uses a cost analysis at each step, Larson \textit{et al.} inserted an added cost for proximity to obstacles for allowing a USV to set a safety barrier around obstacles.\\
-              To avoid moving obstacles, the path planner determines safe velocity ranges using the \textit{Velocity Obstacles} (VO) method (Fig.\ref{fig:obs_vel}): a velocity space \textit{v-$\theta$} grid (where \textit{v} denotes the USV speed and \textit{$\theta$} is the heading angle) is constructed as decision space to find the best velocity vector and the moving obstacle is expanded by the robot size. The reason to do this it to treat the robot as a point. As long as the robot's velocity lies outside the VO, it will not collide with obstacle, assuming that the velocity vectors are constant over time; if the velocity obstacle change over time, the VO-based approach reacts by replanning using the latest sesnsor information.\\
-              In the case that changing the velocity does not avoid collision, the path planner changes path by creating a \textit{projected obstacle area} (POA) (Fig.\ref{fig:poa}), for each obstacles and determining a safe alternative route using a A* search. A POA is the area a moving obstacle could occupy in the future. This area is identified calculating the CPA: since a moving obstacle can pose a threat to the USV along multiple stretches of the path, it is necessary to calculate the CPA of every obstacle along each path segment.
+              The goal of the GPP is to continuosly adapt the already existing path to new obstacles detected with the long-range sensors. In the work of \textcite{Larson2007,Larson2007a}, the path planners use a bidimensional (2D) map created discretizing the environment and assigning each cell a value representing the probability of being occupied or not by an obstacle. Stationary obstacles from the \textit{chart server} and moving obstacles provided by the radar are processed and added to the map. The A* search algorithm \parencite{4082128} has been chosen as search technique and added cost for proximity to obstacles was added to prevent the USV to move too cloe to obstacles.\\
+              To avoid moving obstacles, the path planner determines safe velocity ranges using the \textit{Velocity Obstacles} (VO) method (Fig.\ref{fig:obs_vel}): a velocity space \textit{v-$\theta$} grid (where \textit{v} denotes the USV speed and \textit{$\theta$} is the heading angle) is constructed as decision space where the moving obstacle is expanded by the robot size and the robot is assumed as a point. To avoid collision, the robot's velocity has to lie outside the VO; if the obstacle change velocity or direction, a replanning with the new informations is performed.\\
+              In the case that a collision can't be avoided, the path planner creates a \textit{projected obstacle area} (POA) (Fig.\ref{fig:poa}) for each obstacles and plan a new safe route. A POA represents the area a moving obstacle will occupay in the future and it has to be recalculated for every path segment because an obstacle can represent a threat more than once.
 
               \begin{figure}
                     \centering
@@ -738,18 +746,17 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
                     \label{fig:obs_vel}
               \end{figure}
 
-              Among the previous concepts, the authors decided also to consider the International regulations for preventing collisions at sea (known as COLREGS, for COLlision REGulationS). In this work the authors consider three primary COLREGs, shown in Fig.\ref{fig:colregs}: crossing, overtaking and head-on situations. In the situation in which a traffic boat is crossing from the right, the vessel with the other on its starboard (right) side must give away. In the case of a USV overtaking a slow traffic boat, it must ensure enough clearance so that it keeps out of the way of the traffic boat being overtaken. Otherwise, if the USV and the traffic boat are moving straight toward each other, both vessels must alter their course toward the starboard, so that they pass with the other vessel to its port(left side).\\
-              The POA of a moving obstacle is calculated from the current path of the USV and the time taken to traverse that path. As the path changes, there is a need to update the POA and recalculate.
+              Among the previous concepts, the authors decided also to consider the International regulations for preventing collisions at sea (known as COLREGS, for COLlision REGulationS). In this work the authors consider three primary COLREGs, shown in Fig.\ref{fig:colregs}: overtaking, head-on and crossing situations. In the situation in which a USV overtakes a slow traffic boat, it must ensure enough clearance so that it keeps out of the way of the traffic boat being overtaken. In the case the USV and the traffic boat are moving straight toward each other, both vessels should deviate toward the starboard, so that they pass with the other vessel to its port (left side). Otherwise, if a traffic boat is crossing from the right, the vessel with the other on its starboard (right) side must give away.\\
 
               \begin{figure}
                     \centering
                     \includegraphics[height=5cm]{./Images/Larson/colregs}
-                    \caption{Rulsed defined to avoid collisions for overtaking (a), meeting (b), and crossing (c) obstacle.}
+                    \caption{Ruled defined to avoid collisions for overtaking (a), meeting (b), and crossing (c) obstacle.}
                     \label{fig:colregs}
               \end{figure}
 
-              \indent \textcite{Casalino2009} suggest an approach based on the \textit{Visibility Graph} (Fig.\ref{fig:visibility}) concept and on a world-model in which obstacles are polygons and the robot is a point. A visibility graph is a graph of intervisible locations, typically for a set of points and obstacles in the Euclidean plane. Each node in the graph represents a point location, and each edge represents a visible connection between them. That is, if the line segment connecting two locations does not pass through any obstacle, an edge is drawn between them in the graph.\\
-              In order to use the Visibility Graph the obstacles inside the working area had to be transformed into polygons. At this point the Dijkstra's Algorithm \parencite{EWD:NumerMath59} is applied between the starting point and the goal one and the resulting trajectory will not intersect any of the obstacles.
+              \indent \textcite{Casalino2009} suggest an approach based on the \textit{Visibility Graph} (Fig.\ref{fig:visibility}) concept and on a world-model in which obstacles are represented as polygons and the robot as a point. A visibility graph is a graph of intervisible locations: for each couple of point visible one from each other, a straight line connecting them and not passing into an obstacle is drawn.\\
+              The first step in order to use the Visibility Graph is to transform the obstacles into polygons. At this point the Dijkstra's Algorithm \parencite{EWD:NumerMath59} is applied between the starting point and the goal one to find a safe trajectory not intersecting any of the obstacles.
 
 
               \begin{figure}
@@ -759,15 +766,15 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
                     \label{fig:visibility}
               \end{figure}
 
-              A totally different approach has been developed by \textcite{Xie2014}. The authors take inspiration from the concept of \textit{Artificial Potential Field} (APF) \parencite{Khatib1985} and improved it to be more robust such that it can avoid local minima, destinations unreachable and poor accuracy. APF consists in combining the repulsion potential field of obstacles and gravitational potential field of targets in the operational space.\\
-              In the APF model,shown in Fig.\ref{fig:apf}, $T$ represents the target which produces the attraction to the USV, $O$ represents obstacles which produce repulsion to the USV. If $X_d$ represents the target position, the control of the USV with respect to the obstacle $O$ can be carried out in the artificial potential:
+              A totally different approach has been developed by \textcite{Xie2014}. The authors take inspiration from the concept of \textit{Artificial Potential Field} (APF) \parencite{Khatib1985} and improved it to be more robust such that it can avoid local minima, destinations unreachable and poor accuracy. In order to define a safe path leading the USV far from obstacles and to the goal, APF combine the repulsion potential field of obstacles and gravitational potential field of targets. \\
+              In the APF model, shown in Fig.\ref{fig:apf}, $T$ represents the target producing the attraction to the USV while $O$ represents obstacles the repulse the USV. If $X_d$ represents the target position, the control of the USV with respect to the obstacle $O$ can be carried out in the artificial potential:
 
                   \begin{equation} \label{eq:apf}
                          U_{art}(x) = U_{att}(x) + U_{rep}(x)
                   \end{equation}
 
-              where $U_{art}$, $U_{att}$, $U_{rep}$ represent artificial potential field, attraction potential field and repulsion potential energy respectively.\\
-              The improvement introduced consists in a regulatory factor that, in the presence of an obstacle, controls attraction for decreasing as a linear factor and repulsion as a higher-order function. In this way, the USV will not encounter the case of local minum or destination unreachable, but it demonstrated in simulation to be able to avoid obstacles smoothly and reach the goal.
+              where $U_{art}$, $U_{att}$, $U_{rep}$ represent the artificial potential field, the attraction and the repulsion one.\\
+              The improvement introduced by the authors to the tradition approach consists in a regulatory factor that, in the presence of an obstacle, controls attraction for decreasing as a linear factor and repulsion as a higher-order function. In this way, situations as local minimun or destination unreachable are addressed while the craft is able to avoid obstacles smoothly and reach the goal.
 
               \begin{figure}
                     \centering
