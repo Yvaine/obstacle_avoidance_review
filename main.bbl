@@ -672,11 +672,11 @@
     \entry{Naeem2009}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=1bebb3193d0b7d0b8ffc9350b902e7d0}{Naeem}{N\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=f57870646716a87785c1ee985732863a}{Sutton}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=f57870646716a87785c1ee985732863a}{Sutton}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
         {{uniquename=0,hash=1bebb3193d0b7d0b8ffc9350b902e7d0}{Naeem}{N\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=f57870646716a87785c1ee985732863a}{Sutton}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=f57870646716a87785c1ee985732863a}{Sutton}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{86109a3dcdbcea1b5c73ee97281ea60d}
       \strng{fullhash}{86109a3dcdbcea1b5c73ee97281ea60d}
@@ -753,6 +753,32 @@
       \verb{file}
       \verb :home/pulver/Dropbox/Universit{\`{a}}/PhD/Marine Robotic Overview/Obstacle avoidance/Experimental results on obstacle avoidance for high speed unmanned surface vehicles.pdf:pdf
       \endverb
+    \endentry
+    \entry{Sutton:1998:IRL:551283}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=1,hash=62d786126ac8e0c074a227e1a9539778}{Sutton}{S\bibinitperiod}{Richard\bibnamedelima S.}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2af6784730658c8f4cdaa0f6e798041d}{Barto}{B\bibinitperiod}{Andrew\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=62d786126ac8e0c074a227e1a9539778}{Sutton}{S\bibinitperiod}{Richard\bibnamedelima S.}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2af6784730658c8f4cdaa0f6e798041d}{Barto}{B\bibinitperiod}{Andrew\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28d99d89e7d01c7b5ad82e228ca789fd}
+      \strng{fullhash}{28d99d89e7d01c7b5ad82e228ca789fd}
+      \field{sortinit}{S}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Introduction to Reinforcement Learning}
+      \field{edition}{1st}
+      \field{isbn}{0262193981}
+      \field{title}{Introduction to Reinforcement Learning}
+      \field{year}{1998}
     \endentry
     \entry{Tan2010}{inproceedings}{}
       \name{labelname}{3}{}{%
