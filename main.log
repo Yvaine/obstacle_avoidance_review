@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  21 JAN 2016 15:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.7)  21 JAN 2016 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,8 +704,8 @@ File: ./Images/USV/owl_mk2.jpg Graphic file (type jpg)
 <use ./Images/USV/owl_mk2.jpg>
 Package pdftex.def Info: ./Images/USV/owl_mk2.jpg used on input line 616.
 (pdftex.def)             Requested size: 182.0778pt x 99.56964pt.
- [2] [3 <./Images/USV/springer.jpg> <./Images/USV/spartan.jpg> <./Images/USV/ba
-rracuda.JPG> <./Images/USV/owl_mk2.jpg>]
+ [2 <./Images/USV/springer.jpg> <./Images/USV/spartan.jpg> <./Images/USV/barrac
+uda.JPG> <./Images/USV/owl_mk2.jpg>] [3]
 <./Images/Almeida/perimeters.png, id=22, 629.35126pt x 364.36125pt>
 File: ./Images/Almeida/perimeters.png Graphic file (type png)
 
@@ -713,7 +713,6 @@ File: ./Images/Almeida/perimeters.png Graphic file (type png)
 Package pdftex.def Info: ./Images/Almeida/perimeters.png used on input line 638
 .
 (pdftex.def)             Requested size: 245.72449pt x 142.26378pt.
- [4]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 646.
 
 
@@ -722,7 +721,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 646.
- [5 <./Images/Almeida/perimeters.png (PNG copy)>]
+ [4 <./Images/Almeida/perimeters.png (PNG copy)>] [5]
 <./Images/Wang/line-fitting.png, id=29, 575.14874pt x 376.40625pt>
 File: ./Images/Wang/line-fitting.png Graphic file (type png)
 
@@ -751,56 +750,56 @@ File: ./Images/Wang/corner.png Graphic file (type png)
 <use ./Images/Wang/corner.png>
 Package pdftex.def Info: ./Images/Wang/corner.png used on input line 679.
 (pdftex.def)             Requested size: 182.08614pt x 99.57954pt.
- [6] [7 <./Images/Wang/line-fitting.png (PNG copy)> <./Images/Wang/horizon.png 
-(PNG copy)> <./Images/Wang/saliency.png (PNG copy)> <./Images/Wang/corner.png (
-PNG copy)>]
-<./Images/Wang/monocular.png, id=40, 715.67375pt x 481.8pt>
+
+<./Images/Wang/monocular.png, id=33, 715.67375pt x 481.8pt>
 File: ./Images/Wang/monocular.png Graphic file (type png)
 
 <use ./Images/Wang/monocular.png>
 Package pdftex.def Info: ./Images/Wang/monocular.png used on input line 690.
 (pdftex.def)             Requested size: 211.31848pt x 142.26378pt.
- [8 <./Images/Wang/monocular.png (PNG copy)>]
-<./Images/Azzabi/original.jpg, id=44, 504.88625pt x 380.42125pt>
+ [6] [7 <./Images/Wang/line-fitting.png (PNG copy)> <./Images/Wang/horizon.png 
+(PNG copy)> <./Images/Wang/saliency.png (PNG copy)> <./Images/Wang/corner.png (
+PNG copy)> <./Images/Wang/monocular.png (PNG copy)>] <./Images/Azzabi/original.
+jpg, id=41, 504.88625pt x 380.42125pt>
 File: ./Images/Azzabi/original.jpg Graphic file (type jpg)
 
 <use ./Images/Azzabi/original.jpg>
 Package pdftex.def Info: ./Images/Azzabi/original.jpg used on input line 707.
 (pdftex.def)             Requested size: 136.57533pt x 99.58054pt.
 
-<./Images/Azzabi/greyscale.jpg, id=45, 500.87125pt x 376.40625pt>
+<./Images/Azzabi/greyscale.jpg, id=42, 500.87125pt x 376.40625pt>
 File: ./Images/Azzabi/greyscale.jpg Graphic file (type jpg)
 
 <use ./Images/Azzabi/greyscale.jpg>
 Package pdftex.def Info: ./Images/Azzabi/greyscale.jpg used on input line 711.
 (pdftex.def)             Requested size: 136.57451pt x 99.58635pt.
 
-<./Images/Azzabi/sobel.png, id=46, 496.85625pt x 377.41pt>
+<./Images/Azzabi/sobel.png, id=43, 496.85625pt x 377.41pt>
 File: ./Images/Azzabi/sobel.png Graphic file (type png)
 
 <use ./Images/Azzabi/sobel.png>
 Package pdftex.def Info: ./Images/Azzabi/sobel.png used on input line 715.
 (pdftex.def)             Requested size: 136.57144pt x 99.58125pt.
-
+ [8 <./Images/Azzabi/original.jpg> <./Images/Azzabi/greyscale.jpg> <./Images/Az
+zabi/sobel.png (PNG copy)>]
 <./Images/Azzabi/geometric.jpg, id=47, 733.74126pt x 557.08125pt>
 File: ./Images/Azzabi/geometric.jpg Graphic file (type jpg)
 
 <use ./Images/Azzabi/geometric.jpg>
 Package pdftex.def Info: ./Images/Azzabi/geometric.jpg used on input line 727.
 (pdftex.def)             Requested size: 187.37584pt x 142.26378pt.
- [9 <./Images/Azzabi/original.jpg> <./Images/Azzabi/greyscale.jpg> <./Images/Az
-zabi/sobel.png (PNG copy)>]
+ [9 <./Images/Azzabi/geometric.jpg>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 738.
- [10 <./Images/Azzabi/geometric.jpg>] <./Images/Larson/poa.png, id=54, 1084.05p
-t x 186.6975pt>
+
+<./Images/Larson/poa.png, id=51, 1084.05pt x 186.6975pt>
 File: ./Images/Larson/poa.png Graphic file (type png)
 
 <use ./Images/Larson/poa.png>
 Package pdftex.def Info: ./Images/Larson/poa.png used on input line 746.
 (pdftex.def)             Requested size: 455.24408pt x 78.40385pt.
 
-<./Images/Kuwata/obs_vel.png, id=55, 875.27pt x 450.68375pt>
+<./Images/Kuwata/obs_vel.png, id=52, 875.27pt x 450.68375pt>
 File: ./Images/Kuwata/obs_vel.png Graphic file (type png)
 
 <use ./Images/Kuwata/obs_vel.png>
@@ -811,89 +810,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
-[11 <./Images/Larson/poa.png (PNG copy)>]
-<./Images/Larson/colregs.png, id=60, 1160.335pt x 513.92pt>
+[10] [11 <./Images/Larson/poa.png (PNG copy)> <./Images/Kuwata/obs_vel.png (PNG
+ copy)>] <./Images/Larson/colregs.png, id=61, 1160.335pt x 513.92pt>
 File: ./Images/Larson/colregs.png Graphic file (type png)
 
 <use ./Images/Larson/colregs.png>
 Package pdftex.def Info: ./Images/Larson/colregs.png used on input line 762.
 (pdftex.def)             Requested size: 321.2089pt x 142.26378pt.
 
-<./Images/Casalino/visibility_graph.png, id=61, 876.27374pt x 372.39125pt>
+<./Images/Casalino/visibility_graph.png, id=62, 876.27374pt x 372.39125pt>
 File: ./Images/Casalino/visibility_graph.png Graphic file (type png)
 
 <use ./Images/Casalino/visibility_graph.png>
 Package pdftex.def Info: ./Images/Casalino/visibility_graph.png used on input l
 ine 773.
 (pdftex.def)             Requested size: 334.7658pt x 142.26378pt.
- [12 <./Images/Kuwata/obs_vel.png (PNG copy)>] [13 <./Images/Larson/colregs.png
- (PNG copy)> <./Images/Casalino/visibility_graph.png (PNG copy)>]
-<./Images/Xie/apf.png, id=70, 563.10374pt x 381.425pt>
+ [12 <./Images/Larson/colregs.png (PNG copy)>] <./Images/Xie/apf.png, id=66, 56
+3.10374pt x 381.425pt>
 File: ./Images/Xie/apf.png Graphic file (type png)
 
 <use ./Images/Xie/apf.png>
 Package pdftex.def Info: ./Images/Xie/apf.png used on input line 790.
 (pdftex.def)             Requested size: 210.02061pt x 142.26378pt.
- [14 <./Images/Xie/apf.png (PNG copy)>] [15]
-<./Images/Kuwata/vo_colregs.png, id=78, 731.73375pt x 608.2725pt>
+ [13 <./Images/Casalino/visibility_graph.png (PNG copy)>] [14 <./Images/Xie/apf
+.png (PNG copy)>]
+<./Images/Kuwata/vo_colregs.png, id=75, 731.73375pt x 608.2725pt>
 File: ./Images/Kuwata/vo_colregs.png Graphic file (type png)
 
 <use ./Images/Kuwata/vo_colregs.png>
 Package pdftex.def Info: ./Images/Kuwata/vo_colregs.png used on input line 819.
 
 (pdftex.def)             Requested size: 171.13121pt x 142.26378pt.
- [16 <./Images/Kuwata/vo_colregs.png (PNG copy)>] <./Images/Larson/arcs.png, id
-=82, 647.41875pt x 651.43375pt>
+ [15 <./Images/Kuwata/vo_colregs.png (PNG copy)>] <./Images/Larson/arcs.png, id
+=79, 647.41875pt x 651.43375pt>
 File: ./Images/Larson/arcs.png Graphic file (type png)
 
 <use ./Images/Larson/arcs.png>
 Package pdftex.def Info: ./Images/Larson/arcs.png used on input line 837.
 (pdftex.def)             Requested size: 141.3854pt x 142.26378pt.
- [17 <./Images/Larson/arcs.png (PNG copy)>]
-<./Images/Casalino/bb1.png, id=86, 643.40375pt x 459.7175pt>
+ [16] [17 <./Images/Larson/arcs.png (PNG copy)>]
+<./Images/Casalino/bb1.png, id=87, 643.40375pt x 459.7175pt>
 File: ./Images/Casalino/bb1.png Graphic file (type png)
 
 <use ./Images/Casalino/bb1.png>
 Package pdftex.def Info: ./Images/Casalino/bb1.png used on input line 856.
 (pdftex.def)             Requested size: 182.09569pt x 99.58089pt.
 
-<./Images/Casalino/bb2.png, id=87, 647.41875pt x 462.72874pt>
+<./Images/Casalino/bb2.png, id=88, 647.41875pt x 462.72874pt>
 File: ./Images/Casalino/bb2.png Graphic file (type png)
 
 <use ./Images/Casalino/bb2.png>
 Package pdftex.def Info: ./Images/Casalino/bb2.png used on input line 860.
 (pdftex.def)             Requested size: 182.09595pt x 99.58359pt.
 
-<./Images/Casalino/bb3.png, id=88, 642.4pt x 462.72874pt>
+<./Images/Casalino/bb3.png, id=89, 642.4pt x 462.72874pt>
 File: ./Images/Casalino/bb3.png Graphic file (type png)
 
 <use ./Images/Casalino/bb3.png>
 Package pdftex.def Info: ./Images/Casalino/bb3.png used on input line 865.
 (pdftex.def)             Requested size: 182.09587pt x 99.58359pt.
 
-<./Images/Casalino/bb4.png, id=89, 643.40375pt x 458.71375pt>
+<./Images/Casalino/bb4.png, id=90, 643.40375pt x 458.71375pt>
 File: ./Images/Casalino/bb4.png Graphic file (type png)
 
 <use ./Images/Casalino/bb4.png>
 Package pdftex.def Info: ./Images/Casalino/bb4.png used on input line 869.
 (pdftex.def)             Requested size: 182.09569pt x 99.58044pt.
- [18]
+ [18 <./Images/Casalino/bb1.png (PNG copy)> <./Images/Casalino/bb2.png (PNG cop
+y)> <./Images/Casalino/bb3.png (PNG copy)> <./Images/Casalino/bb4.png (PNG copy
+)>]
 <./Images/Simetti/bb.png, id=94, 864.22874pt x 719.68875pt>
 File: ./Images/Simetti/bb.png Graphic file (type png)
 
 <use ./Images/Simetti/bb.png>
 Package pdftex.def Info: ./Images/Simetti/bb.png used on input line 886.
 (pdftex.def)             Requested size: 170.83824pt x 142.26378pt.
- [19 <./Images/Casalino/bb1.png (PNG copy)> <./Images/Casalino/bb2.png (PNG cop
-y)> <./Images/Casalino/bb3.png (PNG copy)> <./Images/Casalino/bb4.png (PNG copy
-)>]
+ [19 <./Images/Simetti/bb.png (PNG copy)>]
 <./Images/Tan/lane.png, id=99, 367.3725pt x 520.94624pt>
 File: ./Images/Tan/lane.png Graphic file (type png)
 
 <use ./Images/Tan/lane.png>
 Package pdftex.def Info: ./Images/Tan/lane.png used on input line 901.
 (pdftex.def)             Requested size: 100.32423pt x 142.26378pt.
- [20 <./Images/Simetti/bb.png (PNG copy)> <./Images/Tan/lane.png (PNG copy)>]
+ [20 <./Images/Tan/lane.png (PNG copy)>]
 <./Images/Blaich/evasive1.png, id=103, 483.8075pt x 375.4025pt>
 File: ./Images/Blaich/evasive1.png Graphic file (type png)
 
@@ -915,12 +914,8 @@ File: ./Images/Tang/tangent.png Graphic file (type png)
 <use ./Images/Tang/tangent.png>
 Package pdftex.def Info: ./Images/Tang/tangent.png used on input line 942.
 (pdftex.def)             Requested size: 171.47485pt x 142.26378pt.
- [22] [23 <./Images/Tang/tangent.png (PNG copy)>] [24] [25] [26] [27] (./main.a
-ux)
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+ [22 <./Images/Tang/tangent.png (PNG copy)>]
+[23] [24] [25] [26] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -928,7 +923,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  12596 strings out of 495028
  205627 string characters out of 6181497
- 625440 words of memory out of 5000000
+ 625437 words of memory out of 5000000
  15313 multiletter control sequences out of 15000+600000
  59911 words of font info for 220 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
@@ -943,10 +938,10 @@ sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 11101845 bytes).
+Output written on main.pdf (26 pages, 11101483 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 159 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  30359 words of extra memory for PDF output out of 35830 (max. 10000000)
 
