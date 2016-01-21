@@ -805,7 +805,7 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
 
         \subsection{Local Path Planner} \label{lpp}
 
-              One example of a LPP is given in the work of Kuwata \textcite{Kuwata2014}, in which the authors suggest an algorithm able to avoid moving hazard while respecting the COLREGS. Moreover, the proposed approach uses the VO concept already illustrated.\\
+              One example of a LPP is given in the work of \textcite{Kuwata2014}, in which the authors suggest an algorithm able to avoid moving hazard while respecting the COLREGS. Moreover, the proposed approach uses the VO concept already illustrated.\\
               The developed algorithm works in this way:
                     \begin{itemize}
                           \item Precollision Check: the closest point of approach (CPA) between the vessel and possible obstacles is calculated;
@@ -828,8 +828,8 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
               where \textit{L$_{UG}$} and \textit{v$_{UG}$} denote the relative distance and velocity between the USV and the target point.\\
               As in \parencite{Kuwata2014}, the collision is checked calculating the the CPA and its distance from the vessel. After this, six types of encounter situations are identified and the USV reacts depending on this decision.
 
-              \indent Also the authors of \parencite{Larson2007,Larson2007a} describe a local or \textit{reactive} path planner module; in their work, in addition to the global path planner described in Subsection \ref{gpp}, a local one is required because the long-range sensors are not capable of detecting small obstacles or the GPS is jammed or the Inertial Navigation Unit (INU) drifts and therefore the USV can deviate from the planned path. \\
-              As shown in Fig.\ref{fig:arcs}, a voting system is adopted after having fused data coming from all the sensors in a common level world model. Multiple are projected in front of the vehicle over the local world-model obstacle map, such that their number is a function of the map size and grid spacing. \\
+              \indent Also \textcite{Larson2007,Larson2007a} describe a local or \textit{reactive} path planner module; in their work, in addition to the global path planner described in Subsection \ref{gpp}, a local one is required because the long-range sensors are not capable of detecting small obstacles or the GPS is jammed or the Inertial Navigation Unit (INU) drifts and therefore the USV can deviate from the planned path. \\
+              As shown in Fig.\ref{fig:arcs}, a voting system is adopted after having fused data coming from all the sensors in a common level world model. Multiple arc are projected in front of the vehicle over the local world-model obstacle map, such that their number is a function of the map size and grid spacing. \\
               In this way every cell of the grid is covered with at least one arc and all the safe path are considered. A weight or vote bade on the distance of that path from an obstacle is assigned to each arc. The votes are then scaled from 0 to -1 in order to be combined with votes coming from other navigation behaviours.
 
               \begin{figure}
@@ -951,6 +951,19 @@ Key words: Path planner, Unmanned Surface Vehicle, control, obstacle avoidance.
 
 
 \section{Conclusion} \label{conclusion}
+
+      After having illustrated the actual state of the art for for planning a path for unmanned surface vehicles, a new approach will be described in this section.\\
+      \indent In the last five years, an increasing interest towards \textit{aerial robots} has grown. The reduction of the production costs together with the easiness to use made possible to adopt them for research purposes. An integration between a quadcopter and an USV is therefore proposed as solution to the path planning problem.
+
+      The idea consists in taking the drone off for mapping purpose, acquiring video stream o single frames in order to model the surrounding envionments, and then plan a safe path for the vessel over it.
+      After the acquisition, the images should be processed for detecting the presence of obstacles on the sea surface; this can be done with openCV or Matlab, implementing some of the techniques described in Section \ref{obs_det}, or through some machine learning approach for pattern recognition (e.g. artificial neural networks).
+      After this, the world model can be created as a bi-dimensional grid whose cells assumed as value 1 if they are occupied by an obstacle or 0 if they are free. Obstacles need to be enlarged by a factor depending on the size of the robot used (usually half of its main diagonals) to prevent it crashes against them.
+      To address moving obstacles, calculating their closest point of approach and projected obstacle area seems a good idea because in corrispondence of them the moving obstacle can be considered as a static one.
+      Once world model is realized, an implementation of A* can be used to find a safe path connecting the actual pose of the robot and the goal one. If this lies outside the map, a temporal goal can be assumed as the projection of the goal on the upper limit of the map.
+
+      The innovation of using an \textit{unmanned aerial vehicle} (UAV) instead local cameras is represented by the flexibility in using it: instead of cover only a limited range, using a flying robot can allow to look far from the USV and therefore prevent unusual trajectory of moving hazard in advance. On the other hand there are some disadvantages to face while using this interesting platform. The two most important one are represented by the fact a drone is subject to wind currents, therefore outdoor experiments should be realized only in good weather situations and then the battery consumption (a commercial quadcopter has an autonomy of only 15 minutes).
+      To save energy,it is possible to avoid the UAV flies all the time: an idea is to make it land on the USV and use its frontal camera to detect obstacle in the proximity, so to react to changing in the trajectory of moving hazards and modify the already plan path.
+      A part of the frontal camera, the quadcopter is also provided with a bottom one that can be used to perceive landmark posed on the boat surface, and therefore facilitating its landing.
 
 
 
